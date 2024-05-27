@@ -9,3 +9,20 @@
 # Log file: C:/Users/Somaya/Desktop/VGA_Projects/Racing_Game_Host_Client/vivado.log
 # Journal file: C:/Users/Somaya/Desktop/VGA_Projects/Racing_Game_Host_Client\vivado.jou
 #-----------------------------------------------------------
+start_gui
+open_project C:/Users/Somaya/Desktop/VGA_Projects/Racing_Game_Host_Client/Racing_Game_Host_Client.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:01:17 ; elapsed = 00:00:38 . Memory (MB): peak = 1036.254 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon May 27 09:47:07 2024...
+countered:
+1. Process appears to be on host 'ANN' and cannot be killed from host 'Somaya'
+
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon May 27 09:44:15 2024...

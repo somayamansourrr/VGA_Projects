@@ -9,3 +9,9 @@
 # Log file: C:/Users/Somaya/Desktop/VGA_Projects/Racing_Game_Host_Client/vivado.log
 # Journal file: C:/Users/Somaya/Desktop/VGA_Projects/Racing_Game_Host_Client\vivado.jou
 #-----------------------------------------------------------
+start_gui
+open_project C:/Users/Somaya/Desktop/VGA_Projects/Racing_Game_Host_Client/Racing_Game_Host_Client.xpr
+update_compile_order -fileset sources_1
+
+reset_run impl_1
+reset_run synth_1

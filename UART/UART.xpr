@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="49" Path="C:/Users/Somaya/Desktop/Vivado Projects/UART/UART.xpr">
+<Project Version="7" Minor="49" Path="C:/Users/Somaya/Desktop/VGA_Projects/UART/UART.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="0e89dbbac0ba49b6a52230de66749f73"/>
