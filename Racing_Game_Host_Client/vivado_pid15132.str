@@ -1,0 +1,409 @@
+/*
+
+Xilinx Vivado v2020.1 (64-bit) [Major: 2020, Minor: 1]
+SW Build: 2902540 on Wed May 27 19:54:49 MDT 2020
+IP Build: 2902112 on Wed May 27 22:43:36 MDT 2020
+
+Process ID (PID): 15132
+License: Customer
+
+Current time: 	Mon May 27 08:15:55 EET 2024
+Time zone: 	Eastern European Standard Time (Africa/Cairo)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	DELL
+User home directory: C:/Users/DELL
+User working directory: C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2020.1
+RDI_DATADIR: C:/Xilinx/Vivado/2020.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2020.1/bin
+
+Vivado preferences file location: C:/Users/DELL/AppData/Roaming/Xilinx/Vivado/2020.1/vivado.xml
+Vivado preferences directory: C:/Users/DELL/AppData/Roaming/Xilinx/Vivado/2020.1/
+Vivado layouts directory: C:/Users/DELL/AppData/Roaming/Xilinx/Vivado/2020.1/data/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2020.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/vivado.log
+Vivado journal file location: 	C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/vivado.jou
+Engine tmp dir: 	C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/.Xil/Vivado-15132-Ann
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2020.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2020.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2020.1
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,019 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 119 MB (+122701kb) [00:00:06]
+// [Engine Memory]: 1,019 MB (+917322kb) [00:00:06]
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\DELL\Downloads\Racing_Game_Host_Client\Racing_Game_Host_Client\Racing_Game_Host_Client.xpr. Version: Vivado v2020.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PR_PARTITION_RM_NEW
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,019 MB. GUI used memory: 53 MB. Current time: 5/27/24, 8:15:56 AM EET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// WARNING: HEventQueue.dispatchEvent() is taking  4854 ms.
+// Tcl Message: open_project C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:10 . Memory (MB): peak = 1036.703 ; gain = 0.000 
+// Project name: Racing_Game_Host_Client; location: C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bz (cs)
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 16, true); // u (J, cs) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN
+// bz (cs):  Open Synthesized Design : addNotify
+// Tcl Message: open_run synth_1 -name synth_1 -pr_config [current_pr_configuration] 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7a35tcpg236-1 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,141 MB. GUI used memory: 78 MB. Current time: 5/27/24, 8:16:16 AM EET
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 224ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1374 ms. Increasing delay to 3000 ms.
+// [Engine Memory]: 1,417 MB (+363236kb) [00:00:38]
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// HMemoryUtils.trashcanNow. Engine heap size: 1,452 MB. GUI used memory: 76 MB. Current time: 5/27/24, 8:16:41 AM EET
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,871 MB. GUI used memory: 76 MB. Current time: 5/27/24, 8:16:56 AM EET
+// [Engine Memory]: 1,871 MB (+402337kb) [00:01:11]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,871 MB. GUI used memory: 76 MB. Current time: 5/27/24, 8:16:57 AM EET
+// Xgd.load filename: C:/Xilinx/Vivado/2020.1/data/parts/xilinx/artix7/devint/artix7/xc7a35t/xc7a35t.xgd; ZipEntry: xc7a35t_detail.xgd elapsed time: 0.5s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 0.7s
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgdAndInitRouteStorage elapsed time: 1.6s
+// [Engine Memory]: 1,979 MB (+14535kb) [00:01:15]
+// [GUI Memory]: 138 MB (+13523kb) [00:01:16]
+// Device: addNotify
+// DeviceView Instantiated
+// [GUI Memory]: 155 MB (+10484kb) [00:01:16]
+// WARNING: HEventQueue.dispatchEvent() is taking  3053 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Device 21-403] Loading part xc7a35tcpg236-1 INFO: [Project 1-454] Reading design checkpoint 'c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp' for cell 'clk_wizard' INFO: [Project 1-454] Reading design checkpoint 'C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.runs/host_synth_1/host.dcp' for cell 'host_client' INFO: [Project 1-454] Reading design checkpoint 'c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/car/car.dcp' for cell 'game/pixel_array' 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.521 . Memory (MB): peak = 1323.480 ; gain = 0.000 
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 2554 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2020.1 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57] INFO: [Timing 38-2] Deriving generated clocks [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57] 
+// Tcl Message: get_clocks: Time (s): cpu = 00:00:21 ; elapsed = 00:00:19 . Memory (MB): peak = 1997.391 ; gain = 545.551 
+// Tcl Message: Finished Parsing XDC File [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'clk_wizard/inst' Parsing XDC File [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'game/clk_wizard/inst' 
+// Tcl Message: INFO: [Timing 38-2] Deriving generated clocks [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57] 
+// Tcl Message: Finished Parsing XDC File [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'game/clk_wizard/inst' Parsing XDC File [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/display_image.xdc] Finished Parsing XDC File [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/display_image.xdc] 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 1997.391 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// ExpRunCommands.openSynthResults elapsed time: 52s
+// Device view-level: 0.0
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// Tcl Message: open_run: Time (s): cpu = 00:01:06 ; elapsed = 00:00:51 . Memory (MB): peak = 2035.438 ; gain = 998.734 
+// 'dZ' command handler elapsed time: 53 seconds
+// WARNING: HEventQueue.dispatchEvent() is taking  1196 ms.
+// Device view-level: 0.1
+// Device view-level: 0.0
+// Elapsed time: 54 seconds
+dismissDialog("Open Synthesized Design"); // bz (cs)
+// PAPropertyPanels.initPanels (host_client (host)) elapsed time: 0.4s
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[multiplayer_game_top, host_client (host)]", 5, false); // bD (J, cs)
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[multiplayer_game_top, host_client (host)]", 5, false, false, false, false, true, false); // bD (J, cs) - Popup Trigger
+selectMenu(PAResourceItoN.InstanceMenu_FLOORPLANNING, "Floorplanning"); // af (ao, cs)
+selectMenu(PAResourceItoN.InstanceMenu_FLOORPLANNING, "Floorplanning"); // af (ao, cs)
+selectMenuItem(PAResourceCommand.PACommandNames_DRAW_PBLOCK_MODE, "Draw Pblock"); // ai (cs)
+// Run Command: PAResourceCommand.PACommandNames_DRAW_PBLOCK_MODE
+// Device view-level: 0.3
+// Device view-level: 0.9
+// HMemoryUtils.trashcanNow. Engine heap size: 2,016 MB. GUI used memory: 107 MB. Current time: 5/27/24, 8:17:10 AM EET
+// Device view-level: 1.8
+// Device view-level: 2.0
+// Device view-level: 2.3
+// Device view-level: 2.6
+// HMemoryUtils.trashcanNow. Engine heap size: 2,045 MB. GUI used memory: 108 MB. Current time: 5/27/24, 8:17:12 AM EET
+// [GUI Memory]: 163 MB (+148kb) [00:01:30]
+// [GUI Memory]: 172 MB (+1199kb) [00:01:31]
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 152726, 188028); // E (F, cs)
+// Device view-level: 2.6
+// HMemoryUtils.trashcanNow. Engine heap size: 2,065 MB. GUI used memory: 165 MB. Current time: 5/27/24, 8:17:19 AM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,065 MB. GUI used memory: 108 MB. Current time: 5/27/24, 8:17:21 AM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,065 MB. GUI used memory: 108 MB. Current time: 5/27/24, 8:17:23 AM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,067 MB. GUI used memory: 108 MB. Current time: 5/27/24, 8:17:25 AM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,067 MB. GUI used memory: 108 MB. Current time: 5/27/24, 8:17:26 AM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,067 MB. GUI used memory: 108 MB. Current time: 5/27/24, 8:17:28 AM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,067 MB. GUI used memory: 108 MB. Current time: 5/27/24, 8:17:30 AM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,067 MB. GUI used memory: 108 MB. Current time: 5/27/24, 8:17:32 AM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,067 MB. GUI used memory: 108 MB. Current time: 5/27/24, 8:17:33 AM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,067 MB. GUI used memory: 108 MB. Current time: 5/27/24, 8:17:37 AM EET
+// r (cs): New Pblock: addNotify
+// Elapsed time: 23 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+// TclEventType: PHY_BLOCK_NEW
+// TclEventType: PHY_RECT_SELECT
+// TclEventType: PHY_BLOCK_MODIFY
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: PHY_RECT_SELECT
+// PAPropertyPanels.initPanels (pblock_host_client) elapsed time: 0.2s
+// TclEventType: PHY_BLOCK_ADD_INST
+// WARNING: HEventQueue.dispatchEvent() is taking  1070 ms.
+// Tcl Message: startgroup 
+// Tcl Message: create_pblock pblock_host_client 
+// Tcl Message: resize_pblock pblock_host_client -add SLICE_X30Y50:SLICE_X33Y99 
+// Tcl Message: add_cells_to_pblock pblock_host_client [get_cells [list host_client]] -clear_locs 
+// Tcl Message: endgroup 
+dismissDialog("New Pblock"); // r (cs)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aa (q, cs)
+selectMenu(PAResourceItoN.MainMenuMgr_IO, "IO"); // af (cs)
+selectMenu(PAResourceItoN.MainMenuMgr_TIMING, "Timing"); // af (cs)
+selectMenuItem(PAResourceCommand.PACommandNames_REPORT_DRC, "Report DRC..."); // ai (cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aa (q, cs)
+// Run Command: PAResourceCommand.PACommandNames_REPORT_DRC
+// bz (cs):  Get rule deck name : addNotify
+// i (cs): Report DRC: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  2974 ms.
+selectTree(PAResourceQtoS.SelectVioSpecPanel_CHECK_BOX_TREE, "[All Rules]", 0, true); // v (J, i) - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1163 ms.
+selectTree(PAResourceQtoS.SelectVioSpecPanel_CHECK_BOX_TREE, "[All Rules]", 0, true); // v (J, i) - Node
+selectTree(PAResourceQtoS.SelectVioSpecPanel_CHECK_BOX_TREE, "[All Rules, Dynamic Function eXchange]", 10, true); // v (J, i) - Node
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (i)
+// bz (cs):  Run DRC : addNotify
+// Tcl Message: INFO: [IP_Flow 19-1839] IP Catalog is up to date. INFO: [IP_Flow 19-1839] IP Catalog is up to date. INFO: [IP_Flow 19-1839] IP Catalog is up to date. 
+// Tcl Message: create_drc_ruledeck ruledeck_1 
+// TclEventType: DRC_ADDED
+// Tcl Message: report_drc -name drc_1 -ruledecks {ruledeck_1} 
+// Tcl Message: Command: report_drc -name drc_1 -ruledecks ruledeck_1 
+// Tcl Message: INFO: [DRC 23-27] Running DRC with 2 threads 
+// Tcl Message: report_drc completed successfully 
+// Tcl Message: delete_drc_ruledeck ruledeck_1 
+// Elapsed time: 18 seconds
+selectButton("OptionPane.button", "OK"); // JButton (v, B)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 33, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// am (cs): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (am)
+// A (cs): Out of Date Design: addNotify
+dismissDialog("Save Project"); // am (cs)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// a (cs): Save Constraints: addNotify
+dismissDialog("Out of Date Design"); // A (cs)
+selectRadioButton(PAResourceAtoD.AddedConstraintsWithoutTargetDialog_CREATE_NEW_FILE, "Create a new file"); // a (Q, a)
+// Elapsed time: 19 seconds
+setText(PAResourceAtoD.CreateConstraintsFilePanel_FILE_NAME, "pblock"); // ac (D, a)
+setText(PAResourceAtoD.CreateConstraintsFilePanel_FILE_NAME, "pblocks"); // ac (D, a)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// bz (cs):  Save Constraints : addNotify
+// Tcl Message: file mkdir C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/constrs_1/new 
+// Tcl Message: close [ open C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/constrs_1/new/pblocks.xdc w ] 
+// Tcl Message: add_files -fileset constrs_1 C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/constrs_1/new/pblocks.xdc 
+// Tcl Message: set_property target_constrs_file C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/constrs_1/new/pblocks.xdc [current_fileset -constrset] 
+// [Engine Memory]: 2,078 MB (+99kb) [00:03:09]
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,081 MB. GUI used memory: 113 MB. Current time: 5/27/24, 8:18:55 AM EET
+dismissDialog("Save Constraints"); // a (cs)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DESIGN_SAVE
+// Tcl Message: save_constraints -force 
+// A (cs): Synthesis is Out-of-date: addNotify
+dismissDialog("Save Constraints"); // bz (cs)
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cs)
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// 'cD' command handler elapsed time: 41 seconds
+dismissDialog("Resetting Runs"); // bz (cs)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 child_0_impl_1 -to_step write_bitstream -jobs 12 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon May 27 09:18:59 2024] Launched synth_1, impl_1... Run output will be captured here: synth_1: C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.runs/synth_1/runme.log impl_1: C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.runs/impl_1/runme.log [Mon May 27 09:19:00 2024] Launched impl_1, child_0_impl_1... Run output will be captured here: impl_1: C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.runs/impl_1/runme.log child_0_impl_1: C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.runs/child_0_impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,090 MB. GUI used memory: 112 MB. Current time: 5/27/24, 8:19:02 AM EET

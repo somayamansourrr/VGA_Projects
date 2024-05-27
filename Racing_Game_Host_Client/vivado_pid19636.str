@@ -1,0 +1,2032 @@
+/*
+
+Xilinx Vivado v2020.1 (64-bit) [Major: 2020, Minor: 1]
+SW Build: 2902540 on Wed May 27 19:54:49 MDT 2020
+IP Build: 2902112 on Wed May 27 22:43:36 MDT 2020
+
+Process ID (PID): 19636
+License: Customer
+
+Current time: 	Mon May 27 07:04:52 EET 2024
+Time zone: 	Eastern European Standard Time (Africa/Cairo)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	DELL
+User home directory: C:/Users/DELL
+User working directory: C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2020.1
+RDI_DATADIR: C:/Xilinx/Vivado/2020.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2020.1/bin
+
+Vivado preferences file location: C:/Users/DELL/AppData/Roaming/Xilinx/Vivado/2020.1/vivado.xml
+Vivado preferences directory: C:/Users/DELL/AppData/Roaming/Xilinx/Vivado/2020.1/
+Vivado layouts directory: C:/Users/DELL/AppData/Roaming/Xilinx/Vivado/2020.1/data/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2020.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/vivado.log
+Vivado journal file location: 	C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/vivado.jou
+Engine tmp dir: 	C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/.Xil/Vivado-19636-Ann
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2020.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2020.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2020.1
+
+
+GUI allocated memory:	156 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 992 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 115 MB (+117866kb) [00:00:08]
+// [Engine Memory]: 992 MB (+888457kb) [00:00:08]
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\DELL\Downloads\Racing_Game_Host_Client\Racing_Game_Host_Client\Racing_Game_Host_Client.xpr. Version: Vivado v2020.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 992 MB. GUI used memory: 54 MB. Current time: 5/27/24, 7:04:53 AM EET
+// Tcl Message: open_project C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/Somaya/Desktop/VGA_Projects/Racing_Game_Host_Client' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// WARNING: HEventQueue.dispatchEvent() is taking  3168 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'. 
+// Project name: Racing_Game_Host_Client; location: C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:09 . Memory (MB): peak = 1023.219 ; gain = 0.000 
+dismissDialog("Open Project"); // bz (cs)
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 127 MB (+6479kb) [00:01:50]
+// Elapsed time: 92 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplayer_game_top(Behavioral) (multiplayer_game_top.vhd)]", 1); // B (F, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplayer_game_top(Behavioral) (multiplayer_game_top.vhd), game : vga_multiplayer(Behavioral) (vga_multiplayer.vhd)]", 3); // B (F, cs)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+// bz (SwingUtilities.SharedOwnerFrame):  Open IP Catalog : addNotify
+dismissDialog("Open IP Catalog"); // bz (SwingUtilities.SharedOwnerFrame)
+// [GUI Memory]: 140 MB (+7767kb) [00:02:08]
+// [GUI Memory]: 154 MB (+6673kb) [00:02:12]
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "clock wiz"); // OverlayTextField (az, cs)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Clocking Wizard ; AXI4 ; Production ; Included ; xilinx.com:ip:clk_wiz:6.0", 3, "Clocking Wizard", 0, true); // L (J, cs) - Node
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Clocking Wizard ; AXI4 ; Production ; Included ; xilinx.com:ip:clk_wiz:6.0", 3); // L (J, cs)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Clocking Wizard ; AXI4 ; Production ; Included ; xilinx.com:ip:clk_wiz:6.0", 3, "Clocking Wizard", 0, true, false, false, false, false, true); // L (J, cs) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_CORE
+// [GUI Memory]: 166 MB (+4488kb) [00:02:13]
+// l (cs):  Customize IP : addNotify
+// TclEventType: LOAD_FEATURE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// [Engine Memory]: 1,096 MB (+57287kb) [00:02:17]
+// r (cs): Customize IP: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1542 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,098 MB. GUI used memory: 86 MB. Current time: 5/27/24, 7:06:59 AM EET
+dismissDialog("Customize IP"); // l (cs)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Clocking Options", 1); // cV (E, r)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Output Clocks", 2); // cV (E, r)
+setText("CLKOUT1 REQUESTED OUT FREQ", "100.000"); // D (cW)
+setText("CLKOUT1 REQUESTED OUT FREQ", "25"); // D (cW, r)
+selectCheckBox((HResource) null, "reset", false); // g (bN, r): FALSE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+selectCheckBox((HResource) null, "locked", false); // g (bN, r): FALSE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,126 MB. GUI used memory: 89 MB. Current time: 5/27/24, 7:07:19 AM EET
+selectCheckBox((HResource) null, "reset", false); // g (bN, r): FALSE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+selectButton("OptionPane.button", "OK"); // JButton (v, C)
+dismissDialog("Customize IP"); // r (cs)
+// TclEventType: CREATE_IP_CORE
+// bz (cs):  Customize IP : addNotify
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: create_ip -name clk_wiz -vendor xilinx.com -library ip -version 6.0 -module_name clk_wiz_0 -dir c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: set_property -dict [list CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {25} CONFIG.USE_LOCKED {false} CONFIG.USE_RESET {false} CONFIG.MMCM_CLKFBOUT_MULT_F {9.125} CONFIG.MMCM_CLKOUT0_DIVIDE_F {36.500} CONFIG.CLKOUT1_JITTER {181.828} CONFIG.CLKOUT1_PHASE_ERROR {104.359}] [get_ips clk_wiz_0] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target {instantiation_template} [get_files c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clk_wiz_0'... 
+// [Engine Memory]: 1,168 MB (+18230kb) [00:02:43]
+// aI (cs): Generate Output Products: addNotify
+dismissDialog("Customize IP"); // bz (cs)
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aI)
+// bz (cs):  Managing Output Products : addNotify
+// Tcl Message: generate_target all [get_files  c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'clk_wiz_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'clk_wiz_0'... INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'clk_wiz_0'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'clk_wiz_0'... 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all clk_wiz_0] } 
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a (bz)
+// Tcl Message: export_ip_user_files -of_objects [get_files c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -no_script -sync -force -quiet 
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs clk_wiz_0_synth_1 -jobs 12 
+// Tcl Message: [Mon May 27 08:07:29 2024] Launched clk_wiz_0_synth_1... Run output will be captured here: C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.runs/clk_wiz_0_synth_1/runme.log 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: RUN_STATUS_CHANGE
+dismissDialog("Managing Output Products"); // bz (cs)
+selectButton("OptionPane.button", "OK"); // JButton (v, B)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "bram"); // OverlayTextField (az, cs)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Block Memory Generator ; AXI4 ; Production ; Included ; xilinx.com:ip:blk_mem_gen:8.4", 7, "Block Memory Generator", 0, false); // L (J, cs)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Block Memory Generator ; AXI4 ; Production ; Included ; xilinx.com:ip:blk_mem_gen:8.4", 7); // L (J, cs)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Block Memory Generator ; AXI4 ; Production ; Included ; xilinx.com:ip:blk_mem_gen:8.4", 7, "Block Memory Generator", 0, false, false, false, false, false, true); // L (J, cs) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_CORE
+// l (cs):  Customize IP : addNotify
+// r (cs): Customize IP: addNotify
+dismissDialog("Customize IP"); // l (cs)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // bi (E, r)
+// Elapsed time: 12 seconds
+setText("Component Name", "car"); // D (V, r)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 89 seconds
+setText("Defines the PortA Write Width(DINA)", "12"); // D (bj, r)
+setText("Write Depth", "5000"); // D (bj, r)
+selectCheckBox((HResource) null, "Primitives Output Register", false); // g (o, r): FALSE
+// Elapsed time: 75 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Summary", 3); // bi (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // bi (E, r)
+selectCheckBox((HResource) null, "Load Init File", true); // g (o, r): TRUE
+selectButton(PAResourceEtoH.HACGCCoeFileWidget_BROWSE, "Browse"); // a (E, r)
+setFileChooser("C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/car.coe");
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // bi (E, r)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+// TclEventType: CREATE_IP_CORE
+dismissDialog("Customize IP"); // r (cs)
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: create_ip -name blk_mem_gen -vendor xilinx.com -library ip -version 8.4 -module_name car -dir c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip 
+// bz (cs):  Customize IP : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: set_property -dict [list CONFIG.Component_Name {car} CONFIG.Write_Width_A {12} CONFIG.Write_Depth_A {5000} CONFIG.Read_Width_A {12} CONFIG.Write_Width_B {12} CONFIG.Read_Width_B {12} CONFIG.Register_PortA_Output_of_Memory_Primitives {false} CONFIG.Load_Init_File {true} CONFIG.Coe_File {C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/car.coe}] [get_ips car] 
+// Tcl Message: INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/car.coe' provided. It will be converted relative to IP Instance files '../../../../car.coe' 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target {instantiation_template} [get_files c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/car/car.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'car'... 
+// aI (cs): Generate Output Products: addNotify
+dismissDialog("Customize IP"); // bz (cs)
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aI)
+// bz (cs):  Managing Output Products : addNotify
+// Tcl Message: generate_target all [get_files  c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/car/car.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'car'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'car'... INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'car'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'car'... 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all car] } 
+// Tcl Message: export_ip_user_files -of_objects [get_files c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/car/car.xci] -no_script -sync -force -quiet 
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/car/car.xci] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs car_synth_1 -jobs 12 
+// Tcl Message: [Mon May 27 08:11:09 2024] Launched car_synth_1... Run output will be captured here: C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.runs/car_synth_1/runme.log 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a (bz)
+dismissDialog("Managing Output Products"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+selectButton("OptionPane.button", "OK"); // JButton (v, B)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplayer_game_top(Behavioral) (multiplayer_game_top.vhd), game : vga_multiplayer(Behavioral) (vga_multiplayer.vhd)]", 3); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplayer_game_top(Behavioral) (multiplayer_game_top.vhd), game : vga_multiplayer(Behavioral) (vga_multiplayer.vhd)]", 3, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplayer_game_top(Behavioral) (multiplayer_game_top.vhd), game : vga_multiplayer(Behavioral) (vga_multiplayer.vhd), clk_wizard : clk_wiz_0 (clk_wiz_0.xci)]", 5, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplayer_game_top(Behavioral) (multiplayer_game_top.vhd)]", 1, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplayer_game_top(Behavioral) (multiplayer_game_top.vhd)]", 1, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 91 seconds
+selectCodeEditor("multiplayer_game_top.vhd", 67, 283); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 67, 283, false, false, false, false, true); // bP (w, cs) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N (aI, cs)
+// Elapsed time: 107 seconds
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N (aI, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, client(Behavioral) (client.vhd)]", 2, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, client(Behavioral) (client.vhd)]", 2, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, host(Behavioral) (host.vhd)]", 3, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, host(Behavioral) (host.vhd)]", 3, false, false, false, false, false, true); // B (F, cs) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N (aI, cs)
+selectCodeEditor("host.vhd", 300, 350); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "client.vhd", 4); // m (l, cs)
+selectCodeEditor("client.vhd", 298, 537); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "host.vhd", 5); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "multiplayer_game_top.vhd", 3); // m (l, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 162, 376); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 162, 376, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("multiplayer_game_top.vhd", 170, 400); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 170, 400, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("multiplayer_game_top.vhd", 166, 435); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 166, 435, false, false, false, false, true); // bP (w, cs) - Double Click
+// Elapsed time: 12 seconds
+selectCodeEditor("multiplayer_game_top.vhd", 148, 124); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 148, 124, false, false, false, false, true); // bP (w, cs) - Double Click
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "data_received_flag_1"); // l (au, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_multiplayer.vhd", 2); // m (l, cs)
+// Elapsed time: 39 seconds
+selectCodeEditor("vga_multiplayer.vhd", 161, 582); // bP (w, cs)
+selectCodeEditor("vga_multiplayer.vhd", 161, 582, false, false, false, false, true); // bP (w, cs) - Double Click
+// Elapsed time: 47 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "multiplayer_game_top.vhd", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_multiplayer.vhd", 2); // m (l, cs)
+selectCodeEditor("vga_multiplayer.vhd", 521, 216); // bP (w, cs)
+selectCodeEditor("vga_multiplayer.vhd", 508, 287); // bP (w, cs)
+// WARNING: HEventQueue.dispatchEvent() is taking  6554 ms.
+// Elapsed time: 22 seconds
+selectCodeEditor("vga_multiplayer.vhd", 208, 233); // bP (w, cs)
+selectCodeEditor("vga_multiplayer.vhd", 317, 304); // bP (w, cs)
+// Elapsed time: 19 seconds
+selectCodeEditor("vga_multiplayer.vhd", 119, 303); // bP (w, cs)
+selectCodeEditor("vga_multiplayer.vhd", 357, 309); // bP (w, cs)
+typeControlKey((HResource) null, "vga_multiplayer.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("vga_multiplayer.vhd", 362, 294); // bP (w, cs)
+typeControlKey((HResource) null, "vga_multiplayer.vhd", 'v'); // bP (w, cs)
+typeControlKey((HResource) null, "vga_multiplayer.vhd", 'v'); // bP (w, cs)
+typeControlKey((HResource) null, "vga_multiplayer.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("vga_multiplayer.vhd", 62, 373); // bP (w, cs)
+selectCodeEditor("vga_multiplayer.vhd", 373, 379); // bP (w, cs)
+selectCodeEditor("vga_multiplayer.vhd", 345, 369); // bP (w, cs)
+selectCodeEditor("vga_multiplayer.vhd", 204, 339); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("vga_multiplayer.vhd", 324, 347); // bP (w, cs)
+typeControlKey((HResource) null, "vga_multiplayer.vhd", 'c'); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "multiplayer_game_top.vhd", 3); // m (l, cs)
+// Elapsed time: 11 seconds
+selectCodeEditor("multiplayer_game_top.vhd", 359, 322); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 359, 342); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 513, 242); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 72, 263); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 198, 290); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("multiplayer_game_top.vhd", 368, 459); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'v'); // bP (w, cs)
+typeControlKey(null, null, 'z');
+selectCodeEditor("multiplayer_game_top.vhd", 101, 205); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 101, 205); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 101, 205, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 67, 477); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'v'); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 141, 488); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'v'); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 12 seconds
+selectCodeEditor("multiplayer_game_top.vhd", 12, 240); // bP (w, cs)
+// Elapsed time: 20 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "client.vhd", 4); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "multiplayer_game_top.vhd", 3); // m (l, cs)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "host.vhd", 5); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "client.vhd", 4); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "host.vhd", 5); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_multiplayer.vhd", 2); // m (l, cs)
+typeControlKey((HResource) null, "vga_multiplayer.vhd", 'c'); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "multiplayer_game_top.vhd", 3); // m (l, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 378, 260); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "host.vhd", 5); // m (l, cs)
+selectCodeEditor("host.vhd", 92, 486); // bP (w, cs)
+typeControlKey((HResource) null, "host.vhd", 'c'); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "multiplayer_game_top.vhd", 3); // m (l, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 162, 505); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 46, 128); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 46, 128, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 32, 286); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 32, 286, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 192, 284); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 48, 514); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 48, 514, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'v'); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("multiplayer_game_top.vhd", 407, 495); // bP (w, cs)
+// [GUI Memory]: 174 MB (+62kb) [00:17:05]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "client.vhd", 4); // m (l, cs)
+selectCodeEditor("client.vhd", 50, 577); // bP (w, cs)
+selectCodeEditor("client.vhd", 50, 577, false, false, false, false, true); // bP (w, cs) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "host.vhd", 5); // m (l, cs)
+selectCodeEditor("host.vhd", 38, 510); // bP (w, cs)
+selectCodeEditor("host.vhd", 38, 510, false, false, false, false, true); // bP (w, cs) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "multiplayer_game_top.vhd", 3); // m (l, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'v'); // bP (w, cs)
+typeControlKey(null, null, 'z');
+selectCodeEditor("multiplayer_game_top.vhd", 270, 416); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 410, 515); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 187, 491); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 42, 426); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 412, 492); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 400, 343); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 632, 363); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 261, 366); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 234, 369); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 226, 368); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 194, 349); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "client.vhd", 4); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "multiplayer_game_top.vhd", 3); // m (l, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 220, 349); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 169, 338); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 367, 43); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 377, 28); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 263, 345); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'v'); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "host.vhd", 5); // m (l, cs)
+selectCodeEditor("host.vhd", 145, 129); // bP (w, cs)
+selectCodeEditor("host.vhd", 145, 129, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("host.vhd", 142, 106); // bP (w, cs)
+selectCodeEditor("host.vhd", 142, 106, false, false, false, false, true); // bP (w, cs) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "multiplayer_game_top.vhd", 3); // m (l, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 256, 361); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 411, 397); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 390, 406); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 382, 428); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 394, 450); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 392, 474); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 399, 491); // bP (w, cs)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "client.vhd", 4); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "multiplayer_game_top.vhd", 3); // m (l, cs)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_multiplayer.vhd", 2); // m (l, cs)
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "multiplayer_game_top.vhd", 3); // m (l, cs)
+// Elapsed time: 20 seconds
+selectCodeEditor("multiplayer_game_top.vhd", 95, 278); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 95, 278, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("multiplayer_game_top.vhd", 197, 423); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 197, 423, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("multiplayer_game_top.vhd", 200, 533); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 200, 533, false, false, false, false, true); // bP (w, cs) - Double Click
+// Elapsed time: 13 seconds
+selectCodeEditor("multiplayer_game_top.vhd", 286, 345); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 286, 345, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 267, 371); // bP (w, cs)
+// Elapsed time: 24 seconds
+selectCodeEditor("multiplayer_game_top.vhd", 262, 349); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 292, 354); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 292, 354, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("multiplayer_game_top.vhd", 320, 373); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 320, 373, false, false, false, false, true); // bP (w, cs) - Double Click
+// Elapsed time: 72 seconds
+selectCodeEditor("multiplayer_game_top.vhd", 345, 409); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 345, 409, false, false, false, false, true); // bP (w, cs) - Double Click
+// Elapsed time: 19 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "host.vhd", 5); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "multiplayer_game_top.vhd", 3); // m (l, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 109, 367); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 109, 367, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 551, 340); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 426, 275); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'v'); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("multiplayer_game_top.vhd", 92, 285); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 92, 285, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'c'); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectCodeEditor("multiplayer_game_top.vhd", 274, 370); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 379, 344); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 333, 113); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 333, 113, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 575, 472); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 561, 472); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 467, 478); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 467, 478, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 772, 472); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 913, 470); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 117, 513); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 117, 513, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 280, 509); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 361, 492); // bP (w, cs)
+// Elapsed time: 12 seconds
+selectCodeEditor("multiplayer_game_top.vhd", 367, 385); // bP (w, cs)
+// Elapsed time: 12 seconds
+selectCodeEditor("multiplayer_game_top.vhd", 370, 402); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 379, 410); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 114, 427); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 114, 427, false, false, false, false, true); // bP (w, cs) - Double Click
+// Elapsed time: 11 seconds
+selectCodeEditor("multiplayer_game_top.vhd", 374, 417); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 380, 429); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 405, 435); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'v'); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'v'); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 405, 435); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 162, 432); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 100, 428); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 100, 428, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 288, 418); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'v'); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'v'); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'v'); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 245, 454); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 15 seconds
+selectCodeEditor("multiplayer_game_top.vhd", 435, 358); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 433, 352); // bP (w, cs)
+// Elapsed time: 22 seconds
+selectCodeEditor("multiplayer_game_top.vhd", 899, 346); // bP (w, cs)
+// Elapsed time: 60 seconds
+selectCodeEditor("multiplayer_game_top.vhd", 184, 350); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 549, 396); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 544, 414); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "client.vhd", 4); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "multiplayer_game_top.vhd", 3); // m (l, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 28 seconds
+selectCodeEditor("multiplayer_game_top.vhd", 128, 50); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 128, 50, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 103, 283); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 164, 305); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 302, 339); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 302, 339, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 130, 180); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 563, 346); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 563, 346, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 348, 233); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 735, 341); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 735, 341, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 547, 297); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'v'); // bP (w, cs)
+// Elapsed time: 11 seconds
+selectCodeEditor("multiplayer_game_top.vhd", 94, 300); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+selectCodeEditor("multiplayer_game_top.vhd", 53, 577); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 37, 553); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 37, 553, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 1121, 353); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 334, 414); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 334, 414, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("multiplayer_game_top.vhd", 347, 429); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 347, 429, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 201, 225); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'v'); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'v'); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 319, 262); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 120, 284); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 120, 284, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("multiplayer_game_top.vhd", 120, 284); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 120, 284); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 120, 284, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 238, 284); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'v'); // bP (w, cs)
+// Elapsed time: 19 seconds
+selectCodeEditor("multiplayer_game_top.vhd", 317, 303); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 333, 403); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 333, 403, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 333, 407); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'v'); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 113, 428); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 113, 428, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("multiplayer_game_top.vhd", 92, 458); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 92, 458, false, false, false, false, true); // bP (w, cs) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+selectCodeEditor("multiplayer_game_top.vhd", 329, 449); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'c'); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_multiplayer.vhd", 2); // m (l, cs)
+selectCodeEditor("vga_multiplayer.vhd", 353, 340); // bP (w, cs)
+typeControlKey((HResource) null, "vga_multiplayer.vhd", 'v'); // bP (w, cs)
+// WARNING: HEventQueue.dispatchEvent() is taking  6141 ms.
+selectCodeEditor("vga_multiplayer.vhd", 67, 370); // bP (w, cs)
+selectCodeEditor("vga_multiplayer.vhd", 77, 370); // bP (w, cs)
+selectCodeEditor("vga_multiplayer.vhd", 67, 371); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("vga_multiplayer.vhd", 103, 363); // bP (w, cs)
+selectCodeEditor("vga_multiplayer.vhd", 103, 363, false, false, false, false, true); // bP (w, cs) - Double Click
+// Elapsed time: 23 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "multiplayer_game_top.vhd", 3); // m (l, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 610, 127); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 317, 362); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 317, 362, false, false, false, false, true); // bP (w, cs) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N (aI, cs)
+// Elapsed time: 52 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cs)
+selectMenuItem(PAResourceCommand.PACommandNames_ENABLE_PARTIAL_RECONFIGURATION, "Enable Dynamic Function eXchange..."); // ai (cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cs)
+// Run Command: PAResourceCommand.PACommandNames_ENABLE_PARTIAL_RECONFIGURATION
+// HOptionPane Warning: 'A Dynamic Function eXchange project allows logic contained in Reconfigurable Partitions to be reprogrammed while the device is running. Converting a project to enable Dynamic Function eXchange can not be undone. Convert this project or cancel? (Enable Dynamic Function eXchange)'
+selectButton("OptionPane.button", "Convert"); // JButton (v, B)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// bz (cs):  Enable Dynamic Function eXchange : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property PR_FLOW 1 [current_project]  
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+dismissDialog("Enable Dynamic Function eXchange"); // bz (cs)
+// Elapsed time: 13 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cs)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aa (q, cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aa (q, cs)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cs)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // aa (q, cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // aa (q, cs)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // aa (q, cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // aa (q, cs)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aa (q, cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aa (q, cs)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // aa (q, cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // aa (q, cs)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // aa (q, cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // aa (q, cs)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cs)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aa (q, cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aa (q, cs)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // aa (q, cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // aa (q, cs)
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // aa (q, cs)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // aa (q, cs)
+selectMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // aa (q, cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // aa (q, cs)
+// WARNING: HEventQueue.dispatchEvent() is taking  1125 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,182 MB. GUI used memory: 107 MB. Current time: 5/27/24, 7:37:20 AM EET
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, client(Behavioral) (client.vhd)]", 2, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, client(Behavioral) (client.vhd)]", 2, false, false, false, false, true, false); // B (F, cs) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af (ao, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af (ao, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_CREATE_PARTITION_DEFINITION, "Create Partition Definition..."); // ai (ao, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_CREATE_PARTITION_DEFINITION
+selectButton("OptionPane.button", "OK"); // JButton (v, B)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, client(Behavioral) (client.vhd)]", 2, false, false, false, false, true, false); // B (F, cs) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_CREATE_PARTITION_DEFINITION, "Create Partition Definition..."); // ai (ao, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_CREATE_PARTITION_DEFINITION
+// 'S' command handler elapsed time: 4 seconds
+selectButton("OptionPane.button", "OK"); // JButton (v, B)
+// Elapsed time: 24 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "client.vhd", 4); // m (l, cs)
+selectCodeEditor("client.vhd", 39, 281); // bP (w, cs)
+typeControlKey((HResource) null, "client.vhd", 'c'); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "multiplayer_game_top.vhd", 3); // m (l, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 128, 300); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 107, 40); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 107, 40, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 92, 307); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 92, 307, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("multiplayer_game_top.vhd", 44, 27); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 44, 27, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 20, 301); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 20, 301, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 175, 302); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 136, 76); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 30, 337); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 96, 137); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 64, 352); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 6, 382); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 107, 236); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 24, 360); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 24, 360, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("multiplayer_game_top.vhd", 35, 116); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 689, 154); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 45, 166); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 621, 159); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 621, 159, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 311, 233); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 311, 233, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 134, 160); // bP (w, cs)
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 309, 109); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 309, 109, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "multiplayer_game_top.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("multiplayer_game_top.vhd", 706, 287); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplayer_game_top(Behavioral) (multiplayer_game_top.vhd)]", 1); // B (F, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplayer_game_top(Behavioral) (multiplayer_game_top.vhd), client_int : client(Behavioral) (client.vhd)]", 9, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplayer_game_top(Behavioral) (multiplayer_game_top.vhd), client_int : client(Behavioral) (client.vhd)]", 9, false, false, false, false, true, false); // B (F, cs) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af (ao, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af (ao, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af (ao, Popup.HeavyWeightWindow)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af (ao, Popup.HeavyWeightWindow)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplayer_game_top(Behavioral) (multiplayer_game_top.vhd), client_int : client(Behavioral) (client.vhd)]", 9, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplayer_game_top(Behavioral) (multiplayer_game_top.vhd), client_int : client(Behavioral) (client.vhd)]", 9, false, false, false, false, true, false); // B (F, cs) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af (ao, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af (ao, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_CREATE_PARTITION_DEFINITION, "Create Partition Definition..."); // ai (ao, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_CREATE_PARTITION_DEFINITION
+// 'S' command handler elapsed time: 4 seconds
+selectButton("OptionPane.button", "OK"); // JButton (v, B)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplayer_game_top(Behavioral) (multiplayer_game_top.vhd), client_int : client(Behavioral) (client.vhd)]", 9, false, false, false, false, true, false); // B (F, cs) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af (ao, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af (ao, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_CREATE_PARTITION_DEFINITION, "Create Partition Definition..."); // ai (ao, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_CREATE_PARTITION_DEFINITION
+// U (cs): Create Partition Definition: addNotify
+// Elapsed time: 17 seconds
+setText(PAResourceAtoD.CreatePartitionDefinition_PARTITION_DEFINITION_NAME, "host_client"); // ac (Q, U)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (U)
+// 'S' command handler elapsed time: 17 seconds
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Create Partition Definition"); // U (cs)
+// TclEventType: PR_PARTITION_DEF_NEW
+// Tcl Message: create_partition_def -name host_client -module client 
+// bz (cs):  Create Partition Definition : addNotify
+// Tcl Message: create_reconfig_module -name client -partition_def [get_partition_defs host_client ]  -define_from client 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PR_PARTITION_RM_NEW
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: INFO: [Vivado 12-2924] Moving file 'C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/client.vhd' from fileset 'sources_1' to fileset 'client'. 
+dismissDialog("Create Partition Definition"); // bz (cs)
+// Elapsed time: 17 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cs)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aa (q, cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aa (q, cs)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplayer_game_top(Behavioral) (multiplayer_game_top.vhd), uart_3 : uart_top_multiplayer(Behavioral) (uart_top_multiplayer.vhd)]", 7, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplayer_game_top(Behavioral) (multiplayer_game_top.vhd), client_int : client]", 9, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplayer_game_top(Behavioral) (multiplayer_game_top.vhd), client_int : client]", 9, false, false, false, false, true, false); // B (F, cs) - Popup Trigger
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplayer_game_top(Behavioral) (multiplayer_game_top.vhd), host_int : host(Behavioral) (host.vhd)]", 8, false); // B (F, cs)
+// Elapsed time: 22 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cs)
+selectMenuItem(PAResourceCommand.PACommandNames_PARTIAL_RECONFIGURATION_WIZARD, "Dynamic Function eXchange Wizard..."); // ai (cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cs)
+// Run Command: PAResourceCommand.PACommandNames_PARTIAL_RECONFIGURATION_WIZARD
+// bz (cs):  Initializing Dynamic Function eXchange : addNotify
+// W (cs): Dynamic Function eXchange Wizard: addNotify
+dismissDialog("Initializing Dynamic Function eXchange"); // bz (cs)
+selectButton("NEXT", "Next >"); // JButton (j, W)
+selectButton("NEXT", "Next >"); // JButton (j, W)
+selectButton(PAResourceOtoP.PRConfigurationsTablePanel_AUTOMATICALLY_CREATE_CONFIGURATIONS, "automatically create configurations"); // d (c, W)
+// Elapsed time: 17 seconds
+selectButton("CANCEL", "Cancel"); // JButton (j, W)
+// 'j' command handler elapsed time: 32 seconds
+dismissDialog("Dynamic Function eXchange Wizard"); // W (cs)
+selectCodeEditor("multiplayer_game_top.vhd", 81, 386); // bP (w, cs)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("multiplayer_game_top.vhd", 204, 199); // bP (w, cs)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplayer_game_top(Behavioral) (multiplayer_game_top.vhd), client_int : client]", 9, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplayer_game_top(Behavioral) (multiplayer_game_top.vhd), client_int : client]", 9, false, false, false, false, true, false); // B (F, cs) - Popup Trigger
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplayer_game_top(Behavioral) (multiplayer_game_top.vhd), client_int : client]", 9, false); // B (F, cs)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplayer_game_top(Behavioral) (multiplayer_game_top.vhd)]", 1); // B (F, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Coefficient Files]", 2); // B (F, cs)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Coefficient Files]", 2); // B (F, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplayer_game_top(Behavioral) (multiplayer_game_top.vhd)]", 1); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplayer_game_top(Behavioral) (multiplayer_game_top.vhd), host_client : host(Behavioral) (host.vhd)]", 8, false); // B (F, cs)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // i (N, cs)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 2); // i (N, cs)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Partition Definitions", 4); // i (N, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, host_client, client]", 1, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, host_client, client]", 1, true, false, false, false, true, false); // B (F, cs) - Popup Trigger - Node
+selectMenuItem(PAResourceEtoH.FileSetPanel_DELETE_FROM_PROJECT, "Delete from Project..."); // ai (ao, cs)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aP (cs): Removing Reconfigurable Module: addNotify
+dismissDialog("Removing Reconfigurable Module"); // aP (cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, host_client, client]", 1, true, false, false, false, true, false); // B (F, cs) - Popup Trigger - Node
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cs)
+selectMenuItem(PAResourceCommand.PACommandNames_PARTIAL_RECONFIGURATION_WIZARD, "Dynamic Function eXchange Wizard..."); // ai (cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cs)
+// Run Command: PAResourceCommand.PACommandNames_PARTIAL_RECONFIGURATION_WIZARD
+// bz (cs):  Initializing Dynamic Function eXchange : addNotify
+// W (cs): Dynamic Function eXchange Wizard: addNotify
+dismissDialog("Initializing Dynamic Function eXchange"); // bz (cs)
+selectButton("NEXT", "Next >"); // JButton (j, W)
+selectTable(PAResourceOtoP.PartitionDefModuleTablePanel_RECONFIGURABLE_MODULE_ASSOCIATIONS_WITH, "client ; host_client", 0, "client", 0); // ax (J, W)
+selectButton(RDIResource.AbstractCombinedPanel_REMOVE_SELECTED_ELEMENTS, "Remove"); // E (g, W)
+// aP (cs): Removing Reconfigurable Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aP)
+dismissDialog("Removing Reconfigurable Module"); // aP (cs)
+// HOptionPane Error: 'There are no instances associated with the partition_def in the design.  So Configurations and Configuration Runs pages are skipped. (No Instances)'
+selectButton("NEXT", "Next >"); // JButton (j, W)
+selectButton("OptionPane.button", "OK"); // JButton (v, B)
+// bz (W):  Apply Configuration : addNotify
+// TclEventType: PR_PARTITION_RM_NEW
+// TclEventType: RUN_DELETE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: PR_PARTITION_RM_DELETE
+// Tcl Message: delete_reconfig_modules -merge sources_1 [get_reconfig_modules client] 
+// Tcl Message: INFO: [Project 1-386] Moving file 'C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/client.vhd' from fileset 'client' to fileset 'sources_1'. 
+selectButton("FINISH", "Finish"); // JButton (j, W)
+// 'j' command handler elapsed time: 12 seconds
+dismissDialog("Apply Configuration"); // bz (W)
+dismissDialog("Dynamic Function eXchange Wizard"); // W (cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, host_client]", 0, false); // B (F, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // i (N, cs)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i (N, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, client(Behavioral) (client.vhd)]", 9, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, client(Behavioral) (client.vhd)]", 9, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, client(Behavioral) (client.vhd)]", 10, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, client(Behavioral) (client.vhd)]", 10, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectButton(PAResourceEtoH.FileSetPanel_MESSAGES, "4"); // h (g, cs)
+selectButton(PAResourceEtoH.FileSetPanel_MESSAGES, "4"); // h (g, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, client(Behavioral) (client.vhd)]", 9, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, client(Behavioral) (client.vhd)]", 9, false, false, false, false, true, false); // B (F, cs) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ai (ao, Popup.HeavyWeightWindow)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cs): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (cs)
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/client.vhd] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/client.vhd 
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Partition Definitions", 4); // i (N, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, host_client]", 0, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, host_client]", 0, false, false, false, false, true, false); // B (F, cs) - Popup Trigger
+selectMenuItem(PAResourceEtoH.FileSetPanel_DELETE_FROM_PROJECT, "Delete from Project..."); // ai (ao, cs)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aM (cs): Removing partition definition: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aM)
+dismissDialog("Removing partition definition"); // aM (cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: PR_PARTITION_DEF_DELETE
+// Tcl Message: delete_partition_defs -merge sources_1 [get_partition_defs host_client] 
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // i (N, cs)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i (N, cs)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // E (g, cs)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (E, c)
+// Elapsed time: 11 seconds
+setFileChooser("C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/client.vhd");
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 16 seconds
+dismissDialog("Add Sources"); // c (cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/client.vhd 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplayer_game_top(Behavioral) (multiplayer_game_top.vhd), host_client : host(Behavioral) (host.vhd)]", 8, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplayer_game_top(Behavioral) (multiplayer_game_top.vhd), host_client : host(Behavioral) (host.vhd)]", 8, false, false, false, false, true, false); // B (F, cs) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_CREATE_PARTITION_DEFINITION, "Create Partition Definition..."); // ai (ao, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_CREATE_PARTITION_DEFINITION
+selectButton("OptionPane.button", "OK"); // JButton (v, B)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplayer_game_top(Behavioral) (multiplayer_game_top.vhd), host_client : host(Behavioral) (host.vhd)]", 8, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplayer_game_top(Behavioral) (multiplayer_game_top.vhd), host_client : host(Behavioral) (host.vhd)]", 8, false, false, false, false, true, false); // B (F, cs) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af (ao, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af (ao, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_CREATE_PARTITION_DEFINITION, "Create Partition Definition..."); // ai (ao, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_CREATE_PARTITION_DEFINITION
+selectButton("OptionPane.button", "OK"); // JButton (v, B)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplayer_game_top(Behavioral) (multiplayer_game_top.vhd), host_client : host(Behavioral) (host.vhd)]", 8, false, false, false, false, true, false); // B (F, cs) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af (ao, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af (ao, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_CREATE_PARTITION_DEFINITION, "Create Partition Definition..."); // ai (ao, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_CREATE_PARTITION_DEFINITION
+// U (cs): Create Partition Definition: addNotify
+setText(PAResourceAtoD.CreatePartitionDefinition_PARTITION_DEFINITION_NAME, "host_client"); // ac (Q, U)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (U)
+// 'S' command handler elapsed time: 5 seconds
+dismissDialog("Create Partition Definition"); // U (cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: PR_PARTITION_DEF_NEW
+// Tcl Message: create_partition_def -name host_client -module host 
+// bz (cs):  Create Partition Definition : addNotify
+// Tcl Message: create_reconfig_module -name host -partition_def [get_partition_defs host_client ]  -define_from host 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PR_PARTITION_RM_NEW
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: INFO: [Vivado 12-2924] Moving file 'C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/host.vhd' from fileset 'sources_1' to fileset 'host'. 
+dismissDialog("Create Partition Definition"); // bz (cs)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cs)
+selectMenuItem(PAResourceCommand.PACommandNames_PARTIAL_RECONFIGURATION_WIZARD, "Dynamic Function eXchange Wizard..."); // ai (cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cs)
+// Run Command: PAResourceCommand.PACommandNames_PARTIAL_RECONFIGURATION_WIZARD
+// bz (cs):  Initializing Dynamic Function eXchange : addNotify
+// W (cs): Dynamic Function eXchange Wizard: addNotify
+dismissDialog("Initializing Dynamic Function eXchange"); // bz (cs)
+selectButton("NEXT", "Next >"); // JButton (j, W)
+// Elapsed time: 11 seconds
+selectButton(RDIResource.AbstractCombinedPanel_ADD_ELEMENT, "Add"); // E (g, W)
+// aE (cs): Add Reconfigurable Module: addNotify
+// Elapsed time: 12 seconds
+selectButton(PAResourceQtoS.RMFilesDialog_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (E, aE)
+setFileChooser("C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/client.vhd");
+// Elapsed time: 16 seconds
+selectTable(PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE, "VSourceFile ; 1 ; client.vhd ; xil_defaultlib ; C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new", 0, "client.vhd", 2); // bQ (J, aE)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_OR_CREATE_SOURCE_FILE, "Add"); // E (g, aE)
+setText(PAResourceQtoS.RMFilesDialog_RECONFIGURABLE_MODULE_NAME, "client"); // ac (aE)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Add Reconfigurable Module"); // aE (cs)
+selectButton("NEXT", "Next >"); // JButton (j, W)
+selectButton(PAResourceOtoP.PRConfigurationsTablePanel_AUTOMATICALLY_CREATE_CONFIGURATIONS, "automatically create configurations"); // d (c, W)
+// Elapsed time: 15 seconds
+selectTable(PAResourceOtoP.PRConfigurationsTablePanel_CONFIGURATIONS, "config_1 ; host", 0, "host", 1); // L (J, W)
+selectButton("NEXT", "Next >"); // JButton (j, W)
+selectButton(PAResourceOtoP.PRConfigRunsTreeTablePanel_AUTOMATICALLY_CREATE_CONFIGURATION_RUN, "automatically create configuration run"); // d (c, W)
+// Elapsed time: 16 seconds
+selectButton("NEXT", "Next >"); // JButton (j, W)
+// bz (W):  Apply Configuration : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PR_PARTITION_RM_NEW
+// TclEventType: RUN_ADD
+// Tcl Message: create_reconfig_module -name client -partition_def [get_partition_defs host_client ]  
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/client.vhd  -of_objects [get_reconfig_modules client] 
+// Tcl Message: create_pr_configuration -name config_1 -partitions [list host_client:host ] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: PR_PARTITION_CONFIG_CHANGE
+// Tcl Message: create_pr_configuration -name config_2 -partitions [list host_client:client ] 
+// TclEventType: RUN_MODIFY
+// Tcl Message: set_property PR_CONFIGURATION config_1 [get_runs impl_1] 
+// TclEventType: RUN_ADD
+// Tcl Message: create_run child_0_impl_1 -parent_run impl_1 -flow {Vivado Implementation 2020} -pr_config config_2 
+// Tcl Message: Run is defaulting to parent run srcset: sources_1 Run is defaulting to parent run constrset: constrs_1 Run is defaulting to parent run part: xc7a35tcpg236-1 
+selectButton("FINISH", "Finish"); // JButton (j, W)
+// 'j' command handler elapsed time: 110 seconds
+dismissDialog("Apply Configuration"); // bz (W)
+dismissDialog("Dynamic Function eXchange Wizard"); // W (cs)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplayer_game_top(Behavioral) (multiplayer_game_top.vhd)]", 1); // B (F, cs)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Partition Definitions", 4); // i (N, cs)
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 15, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bz (cs):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 12 
+// Tcl Message: [Mon May 27 08:46:08 2024] Launched host_synth_1, client_synth_1... Run output will be captured here: host_synth_1: C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.runs/host_synth_1/runme.log client_synth_1: C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.runs/client_synth_1/runme.log [Mon May 27 08:46:08 2024] Launched synth_1... Run output will be captured here: C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ag (cs): Synthesis Completed: addNotify
+// Elapsed time: 231 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ag)
+dismissDialog("Synthesis Completed"); // ag (cs)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module \\game/pixel_array  has unconnected pin ena. ]", 10, false); // ah (J, cs)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module \\game/pixel_array  has unconnected pin ena. ]", 10, false, false, false, false, false, true); // ah (J, cs) - Double Click
+// Elapsed time: 13 seconds
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i (N, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplayer_game_top(Behavioral) (multiplayer_game_top.vhd)]", 1); // B (F, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplayer_game_top(Behavioral) (multiplayer_game_top.vhd), game : vga_multiplayer(Behavioral) (vga_multiplayer.vhd)]", 3); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplayer_game_top(Behavioral) (multiplayer_game_top.vhd), game : vga_multiplayer(Behavioral) (vga_multiplayer.vhd), pixel_array : car (car.xci)]", 4, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, multiplayer_game_top(Behavioral) (multiplayer_game_top.vhd), game : vga_multiplayer(Behavioral) (vga_multiplayer.vhd), pixel_array : car (car.xci)]", 4, false, false, false, false, false, true); // B (F, cs) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cs): Re-customize IP: addNotify
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // bi (E, r)
+selectComboBox("Enable Port Type (Enable_A)", "Always Enabled", 0); // E (E, r)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Re-customize IP"); // r (cs)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: set_property -dict [list CONFIG.Enable_A {Always_Enabled}] [get_ips car] 
+// aI (cs): Generate Output Products: addNotify
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aI)
+// bz (cs):  Managing Output Products : addNotify
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: generate_target all [get_files  c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/car/car.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'car'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'car'... 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'car'... INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'car'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'car'... 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all car] } 
+// Tcl Message: export_ip_user_files -of_objects [get_files c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/car/car.xci] -no_script -sync -force -quiet 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run car_synth_1 
+// Tcl Message: launch_runs car_synth_1 -jobs 12 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon May 27 08:50:35 2024] Launched car_synth_1... Run output will be captured here: C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.runs/car_synth_1/runme.log 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// [GUI Memory]: 190 MB (+7251kb) [00:45:55]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+selectButton("OptionPane.button", "OK"); // JButton (v, B)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 16, true); // u (J, cs) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN
+// bJ (cs): Synthesis is Out-of-date: addNotify
+selectButton(PAResourceQtoS.StaleRunDialog_OPEN_DESIGN, "Open Design"); // a (bJ)
+// bz (cs):  Open Synthesized Design : addNotify
+dismissDialog("Synthesis is Out-of-date"); // bJ (cs)
+// Tcl Message: open_run synth_1 -name synth_1 -pr_config [current_pr_configuration] 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7a35tcpg236-1 
+// WARNING: HEventQueue.dispatchEvent() is taking  1344 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,471 MB. GUI used memory: 118 MB. Current time: 5/27/24, 7:50:51 AM EET
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// Elapsed time: 12 seconds
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a (bz)
+// 'dZ' command handler elapsed time: 14 seconds
+// [Engine Memory]: 1,471 MB (+256382kb) [00:46:15]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,817 MB. GUI used memory: 118 MB. Current time: 5/27/24, 7:51:05 AM EET
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,822 MB. GUI used memory: 118 MB. Current time: 5/27/24, 7:51:06 AM EET
+// [Engine Memory]: 1,822 MB (+290249kb) [00:46:25]
+// TclEventType: DESIGN_NEW
+// Xgd.load filename: C:/Xilinx/Vivado/2020.1/data/parts/xilinx/artix7/devint/artix7/xc7a35t/xc7a35t.xgd; ZipEntry: xc7a35t_detail.xgd elapsed time: 0.7s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 0.8s
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// [Engine Memory]: 1,917 MB (+4148kb) [00:46:27]
+// Device: addNotify
+// DeviceView Instantiated
+// [GUI Memory]: 203 MB (+3519kb) [00:46:28]
+// WARNING: HEventQueue.dispatchEvent() is taking  2480 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Device 21-403] Loading part xc7a35tcpg236-1 INFO: [Project 1-454] Reading design checkpoint 'c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp' for cell 'clk_wizard' INFO: [Project 1-454] Reading design checkpoint 'C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.runs/host_synth_1/host.dcp' for cell 'host_client' 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.172 . Memory (MB): peak = 1523.324 ; gain = 0.000 
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 2551 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2020.1 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57] INFO: [Timing 38-2] Deriving generated clocks [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57] 
+// Tcl Message: get_clocks: Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 2181.156 ; gain = 558.602 
+// Tcl Message: Finished Parsing XDC File [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'clk_wizard/inst' Parsing XDC File [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'game/clk_wizard/inst' 
+// Tcl Message: INFO: [Timing 38-2] Deriving generated clocks [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57] 
+// Tcl Message: Finished Parsing XDC File [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'game/clk_wizard/inst' 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 2181.156 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Device view-level: 0.0
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// Tcl Message: open_run: Time (s): cpu = 00:00:32 ; elapsed = 00:00:27 . Memory (MB): peak = 2188.977 ; gain = 885.980 
+// V (cs): Critical Messages: addNotify
+// Elapsed time: 15 seconds
+dismissDialog("Open Synthesized Design"); // bz (cs)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (V)
+dismissDialog("Critical Messages"); // V (cs)
+// Device view-level: 0.3
+// Device view-level: 0.9
+// Device view-level: 1.2
+// HMemoryUtils.trashcanNow. Engine heap size: 2,003 MB. GUI used memory: 146 MB. Current time: 5/27/24, 7:51:22 AM EET
+// Device view-level: 1.5
+// Device view-level: 1.8
+// Device view-level: 2.0
+// Elapsed time: 24 seconds
+expandTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[multiplayer_game_top, host_client (host)]", 5); // bD (J, cs)
+// PAPropertyPanels.initPanels (host_client (host)) elapsed time: 0.2s
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[multiplayer_game_top, host_client (host)]", 5, true); // bD (J, cs) - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[multiplayer_game_top, host_client (host)]", 5, true, false, false, false, true, false); // bD (J, cs) - Popup Trigger - Node
+selectMenu(PAResourceItoN.InstanceMenu_FLOORPLANNING, "Floorplanning"); // af (ao, cs)
+selectMenuItem(PAResourceCommand.PACommandNames_DRAW_PBLOCK_MODE, "Draw Pblock"); // ai (cs)
+// Run Command: PAResourceCommand.PACommandNames_DRAW_PBLOCK_MODE
+// [Engine Memory]: 2,013 MB (+356kb) [00:47:01]
+// Device view-level: 1.8
+// Device view-level: 1.5
+// HMemoryUtils.trashcanNow. Engine heap size: 2,013 MB. GUI used memory: 148 MB. Current time: 5/27/24, 7:51:44 AM EET
+// Device view-level: 1.2
+// Device view-level: 0.9
+// Device view-level: 0.6
+// Device view-level: 0.3
+// Device view-level: 0.0
+// HMemoryUtils.trashcanNow. Engine heap size: 2,013 MB. GUI used memory: 148 MB. Current time: 5/27/24, 7:51:45 AM EET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Device view-level: 0.6
+// Device view-level: 0.9
+// Device view-level: 1.2
+// HMemoryUtils.trashcanNow. Engine heap size: 2,013 MB. GUI used memory: 148 MB. Current time: 5/27/24, 7:51:47 AM EET
+// [GUI Memory]: 220 MB (+7879kb) [00:47:59]
+// Elapsed time: 105 seconds
+selectButton(PAResourceOtoP.ProjectTab_RELOAD, "Reload"); // h (ds, cs)
+// bz (cs):  Reloading : addNotify
+// Tcl Message: refresh_design 
+// Tcl Message: INFO: [Project 1-454] Reading design checkpoint 'c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp' for cell 'clk_wizard' INFO: [Project 1-454] Reading design checkpoint 'C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.runs/host_synth_1/host.dcp' for cell 'host_client' INFO: [Project 1-454] Reading design checkpoint 'c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/car/car.dcp' for cell 'game/pixel_array' 
+// Tcl Message: ERROR: [Netlist 29-77] Could not replace (cell 'car', library 'work', file 'NOFILE') with (cell 'car', library 'work_library1_3', file 'car.edf') because of a port interface mismatch; port 'ena' is missing on the replacing cell. Resolution: Modify RTL to reference correct ports from the netlist 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Netlist 29-77] Could not replace (cell 'car', library 'work', file 'NOFILE') with (cell 'car', library 'work_library1_3', file 'car.edf') because of a port interface mismatch; port 'ena' is missing on the replacing cell. Resolution: Modify RTL to reference correct ports from the netlist  
+// V (cs): Critical Messages: addNotify
+dismissDialog("Reloading"); // bz (cs)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (V)
+dismissDialog("Critical Messages"); // V (cs)
+selectButton(PAResourceOtoP.ProjectTab_CLOSE_DESIGN, "Close Design"); // h (ds, cs)
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,030 MB. GUI used memory: 138 MB. Current time: 5/27/24, 7:53:41 AM EET
+// Engine heap size: 2,030 MB. GUI used memory: 139 MB. Current time: 5/27/24, 7:53:41 AM EET
+// WARNING: HEventQueue.dispatchEvent() is taking  1678 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: close_design 
+// bz (cs):  Closing : addNotify
+// TclEventType: DESIGN_CLOSE
+dismissDialog("Closing"); // bz (cs)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 15, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// bz (cs):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 12 
+// Tcl Message: [Mon May 27 08:53:44 2024] Launched synth_1... Run output will be captured here: C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ag (cs): Synthesis Completed: addNotify
+// Elapsed time: 177 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN, "Open Synthesized Design"); // a (Q, ag)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ag)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN
+// bz (cs):  Open Synthesized Design : addNotify
+// Tcl Message: open_run synth_1 -name synth_1 -pr_config [current_pr_configuration] 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7a35tcpg236-1 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 2,030 MB. GUI used memory: 115 MB. Current time: 5/27/24, 7:56:48 AM EET
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Project 1-454] Reading design checkpoint 'c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp' for cell 'clk_wizard' INFO: [Project 1-454] Reading design checkpoint 'C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.runs/host_synth_1/host.dcp' for cell 'host_client' INFO: [Project 1-454] Reading design checkpoint 'c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/car/car.dcp' for cell 'game/pixel_array' 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.168 . Memory (MB): peak = 2267.926 ; gain = 0.000 
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 2554 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2020.1 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57] INFO: [Timing 38-2] Deriving generated clocks [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57] 
+// Tcl Message: Finished Parsing XDC File [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'clk_wizard/inst' Parsing XDC File [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'game/clk_wizard/inst' 
+// Tcl Message: INFO: [Timing 38-2] Deriving generated clocks [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57] 
+// Tcl Message: Finished Parsing XDC File [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'game/clk_wizard/inst' 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 2332.617 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Device view-level: 0.0
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// Tcl Message: open_run: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 2332.617 ; gain = 64.691 
+// 'dZ' command handler elapsed time: 7 seconds
+// Device view-level: 0.1
+// Device view-level: 0.0
+dismissDialog("Open Synthesized Design"); // bz (cs)
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[multiplayer_game_top, host_client (host)]", 5, false); // bD (J, cs)
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[multiplayer_game_top, host_client (host)]", 5, false, false, false, false, true, false); // bD (J, cs) - Popup Trigger
+selectMenu(PAResourceItoN.InstanceMenu_FLOORPLANNING, "Floorplanning"); // af (ao, cs)
+selectMenu(PAResourceOtoP.PrimitivesMenu_HIGHLIGHT_LEAF_CELLS, "Highlight Leaf Cells"); // af (ao, cs)
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // af (ao, cs)
+selectMenu(PAResourceQtoS.SelectMenu_MARK, "Mark"); // af (ao, cs)
+selectMenu(PAResourceQtoS.SelectMenu_MARK, "Mark"); // af (ao, cs)
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // af (ao, cs)
+selectMenu(PAResourceOtoP.PrimitivesMenu_HIGHLIGHT_LEAF_CELLS, "Highlight Leaf Cells"); // af (ao, cs)
+selectMenu(PAResourceItoN.InstanceMenu_FLOORPLANNING, "Floorplanning"); // af (ao, cs)
+selectMenuItem(PAResourceCommand.PACommandNames_DRAW_PBLOCK_MODE, "Draw Pblock"); // ai (cs)
+// Run Command: PAResourceCommand.PACommandNames_DRAW_PBLOCK_MODE
+// Device view-level: 0.3
+// HMemoryUtils.trashcanNow. Engine heap size: 2,030 MB. GUI used memory: 147 MB. Current time: 5/27/24, 7:57:02 AM EET
+// Device view-level: 0.6
+// Device view-level: 0.9
+// Device view-level: 1.2
+// Device view-level: 1.5
+// Device view-level: 1.8
+// HMemoryUtils.trashcanNow. Engine heap size: 2,030 MB. GUI used memory: 145 MB. Current time: 5/27/24, 7:57:03 AM EET
+// Device view-level: 2.0
+// Device view-level: 2.3
+// HMemoryUtils.trashcanNow. Engine heap size: 2,030 MB. GUI used memory: 145 MB. Current time: 5/27/24, 7:57:05 AM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,030 MB. GUI used memory: 145 MB. Current time: 5/27/24, 7:57:06 AM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,030 MB. GUI used memory: 145 MB. Current time: 5/27/24, 7:57:07 AM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,030 MB. GUI used memory: 147 MB. Current time: 5/27/24, 7:57:08 AM EET
+// Device view-level: 2.0
+// Device view-level: 1.8
+// Device view-level: 1.5
+// HMemoryUtils.trashcanNow. Engine heap size: 2,030 MB. GUI used memory: 145 MB. Current time: 5/27/24, 7:57:08 AM EET
+// Device view-level: 1.8
+// Elapsed time: 26 seconds
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 152127, 191632); // E (F, cs)
+// r (cs): New Pblock: addNotify
+dismissDialog("New Pblock"); // r (cs)
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[multiplayer_game_top, host_client (host)]", 5, false, false, false, false, true, false); // bD (J, cs) - Popup Trigger
+selectMenu(PAResourceItoN.InstanceMenu_FLOORPLANNING, "Floorplanning"); // af (ao, cs)
+selectMenu(PAResourceItoN.InstanceMenu_FLOORPLANNING, "Floorplanning"); // af (ao, cs)
+selectMenuItem(PAResourceCommand.PACommandNames_DRAW_PBLOCK_MODE, "Draw Pblock"); // ai (cs)
+// Run Command: PAResourceCommand.PACommandNames_DRAW_PBLOCK_MODE
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 152503, 191632); // E (F, cs)
+// Device view-level: 1.8
+// HMemoryUtils.trashcanNow. Engine heap size: 2,030 MB. GUI used memory: 144 MB. Current time: 5/27/24, 7:57:43 AM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,030 MB. GUI used memory: 144 MB. Current time: 5/27/24, 7:57:46 AM EET
+// r (cs): New Pblock: addNotify
+// Elapsed time: 10 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+// TclEventType: PHY_BLOCK_NEW
+// TclEventType: PHY_RECT_SELECT
+// TclEventType: PHY_BLOCK_MODIFY
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: PHY_RECT_SELECT
+// TclEventType: PHY_BLOCK_ADD_INST
+// Tcl Message: startgroup 
+// Tcl Message: create_pblock pblock_host_client 
+// Tcl Message: resize_pblock pblock_host_client -add SLICE_X30Y76:SLICE_X33Y98 
+// Tcl Message: add_cells_to_pblock pblock_host_client [get_cells [list host_client]] -clear_locs 
+// Tcl Message: endgroup 
+dismissDialog("New Pblock"); // r (cs)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 33, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// am (cs): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (am)
+// A (cs): Out of Date Design: addNotify
+dismissDialog("Save Project"); // am (cs)
+// a (cs): Save Constraints: addNotify
+dismissDialog("Out of Date Design"); // A (cs)
+// 'cD' command handler elapsed time: 6 seconds
+dismissDialog("Save Constraints"); // a (cs)
+// Elapsed time: 10 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aa (q, cs)
+selectMenu(PAResourceItoN.MainMenuMgr_IO, "IO"); // af (cs)
+selectMenu(PAResourceItoN.MainMenuMgr_TIMING, "Timing"); // af (cs)
+selectMenuItem(PAResourceCommand.PACommandNames_REPORT_DRC, "Report DRC..."); // ai (cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aa (q, cs)
+// Run Command: PAResourceCommand.PACommandNames_REPORT_DRC
+// bz (cs):  Get rule deck name : addNotify
+// i (cs): Report DRC: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  2217 ms.
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (i)
+// bz (cs):  Run DRC : addNotify
+// Tcl Message: INFO: [IP_Flow 19-1839] IP Catalog is up to date. 
+// Tcl Message: report_drc -name drc_1 -ruledecks {default} 
+// Tcl Message: Command: report_drc -name drc_1 -ruledecks default 
+// Tcl Message: INFO: [IP_Flow 19-1839] IP Catalog is up to date. 
+// Tcl Message: INFO: [DRC 23-27] Running DRC with 2 threads 
+// TclEventType: DRC_ADDED
+// Tcl Message: report_drc completed successfully 
+dismissDialog("Run DRC"); // bz (cs)
+// Elapsed time: 16 seconds
+selectTreeTable(PAResourceTtoZ.VioTreeTablePanel_VIO_TREE_TABLE, "NSTD #1 ; Critical Warning ; 32 out of 32 logical ports use I/O standard (IOSTANDARD) value 'DEFAULT', instead of a user assigned specific value. This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all I/O standards. This design will fail to generate a bitstream unless all logical ports have a user specified I/O standard value defined. To allow bitstream creation with unspecified I/O standard values (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks NSTD-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run. Problem ports: B[3], B[2], B[1], B[0], G[3], G[2], G[1], G[0], R[3], R[2], R[1], R[0],. data_out[7], data_out[6], data_out[5] (the first 15 of 32 listed).", 3, "Critical Warning", 1, false); // P (J, cs)
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aL (aI, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 19); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 20, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 20, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // E (g, cs)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceAtoD.ConstraintsChooserPanel_ADD_FILES, "Add Files"); // a (E, c)
+dismissFileChooser();
+selectButton("CANCEL", "Cancel"); // JButton (j, c)
+// 'h' command handler elapsed time: 8 seconds
+dismissDialog("Add Sources"); // c (cs)
+// Elapsed time: 163 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // E (g, cs)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceAtoD.ConstraintsChooserPanel_ADD_FILES, "Add Files"); // a (E, c)
+setFileChooser("C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/display_image.xdc");
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 9 seconds
+dismissDialog("Add Sources"); // c (cs)
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset constrs_1 -norecurse C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/display_image.xdc 
+selectButton(PAResourceOtoP.ProjectTab_RELOAD, "Reload"); // h (ds, cs)
+// HOptionPane Warning: 'There are unsaved changes in 'Synthesized Design - synth_1' that would be lost. OK to reload? (Reload Design)'
+// bz (cs):  Reloading : addNotify
+selectButton("OptionPane.button", "OK"); // JButton (v, B)
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 2,030 MB. GUI used memory: 122 MB. Current time: 5/27/24, 8:02:02 AM EET
+// Engine heap size: 2,030 MB. GUI used memory: 123 MB. Current time: 5/27/24, 8:02:02 AM EET
+// WARNING: HEventQueue.dispatchEvent() is taking  1951 ms.
+// Tcl Message: refresh_design 
+// TclEventType: DEBUG_GRAPH_STALE
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 2,030 MB. GUI used memory: 122 MB. Current time: 5/27/24, 8:02:07 AM EET
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Device: addNotify
+// DeviceView Instantiated
+// WARNING: HEventQueue.dispatchEvent() is taking  3176 ms.
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57] INFO: [Timing 38-2] Deriving generated clocks [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57] 
+// Tcl Message: Finished Parsing XDC File [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'clk_wizard/inst' Parsing XDC File [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'game/clk_wizard/inst' 
+// Tcl Message: INFO: [Timing 38-2] Deriving generated clocks [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57] 
+// Tcl Message: Finished Parsing XDC File [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'game/clk_wizard/inst' Parsing XDC File [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/display_image.xdc] Finished Parsing XDC File [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/display_image.xdc] 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Device view-level: 0.0
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// Tcl Message: refresh_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:10 . Memory (MB): peak = 2374.230 ; gain = 41.594 
+// Elapsed time: 10 seconds
+dismissDialog("Reloading"); // bz (cs)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 15, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// bz (cs):  Starting Design Runs : addNotify
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 12 
+// Tcl Message: [Mon May 27 09:02:18 2024] Launched synth_1... Run output will be captured here: C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,030 MB. GUI used memory: 149 MB. Current time: 5/27/24, 8:02:21 AM EET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ag (cs): Synthesis Completed: addNotify
+// Elapsed time: 190 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ag)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN
+// bz (cs):  Reloading design : addNotify
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,030 MB. GUI used memory: 135 MB. Current time: 5/27/24, 8:05:31 AM EET
+// Engine heap size: 2,030 MB. GUI used memory: 135 MB. Current time: 5/27/24, 8:05:31 AM EET
+// WARNING: HEventQueue.dispatchEvent() is taking  1677 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: close_design 
+// TclEventType: DESIGN_CLOSE
+// Tcl Message: open_run synth_1 -name synth_1 -pr_config [current_pr_configuration] 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7a35tcpg236-1 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 2,030 MB. GUI used memory: 124 MB. Current time: 5/27/24, 8:05:37 AM EET
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Device: addNotify
+// DeviceView Instantiated
+// WARNING: HEventQueue.dispatchEvent() is taking  1763 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Project 1-454] Reading design checkpoint 'c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp' for cell 'clk_wizard' INFO: [Project 1-454] Reading design checkpoint 'C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.runs/host_synth_1/host.dcp' for cell 'host_client' INFO: [Project 1-454] Reading design checkpoint 'c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/car/car.dcp' for cell 'game/pixel_array' 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.195 . Memory (MB): peak = 2407.758 ; gain = 0.000 
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 2554 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2020.1 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57] INFO: [Timing 38-2] Deriving generated clocks [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57] 
+// Tcl Message: Finished Parsing XDC File [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'clk_wizard/inst' Parsing XDC File [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'game/clk_wizard/inst' 
+// Tcl Message: INFO: [Timing 38-2] Deriving generated clocks [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57] 
+// Tcl Message: Finished Parsing XDC File [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'game/clk_wizard/inst' Parsing XDC File [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/display_image.xdc] Finished Parsing XDC File [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/display_image.xdc] 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 2461.590 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Device view-level: 0.0
+// Tcl Message: open_run: Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 2570.445 ; gain = 162.688 
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// Elapsed time: 10 seconds
+dismissDialog("Reloading design"); // bz (cs)
+// PAPropertyPanels.initPanels (host_client (host)) elapsed time: 0.2s
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[multiplayer_game_top, host_client (host)]", 5, false); // bD (J, cs)
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[multiplayer_game_top, host_client (host)]", 5, false, false, false, false, true, false); // bD (J, cs) - Popup Trigger
+selectMenu(PAResourceItoN.InstanceMenu_FLOORPLANNING, "Floorplanning"); // af (ao, cs)
+selectMenu(PAResourceOtoP.PrimitivesMenu_HIGHLIGHT_LEAF_CELLS, "Highlight Leaf Cells"); // af (ao, cs)
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // af (ao, cs)
+selectMenu(PAResourceQtoS.SelectMenu_MARK, "Mark"); // af (ao, cs)
+selectMenu(PAResourceQtoS.SelectMenu_MARK, "Mark"); // af (ao, cs)
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // af (ao, cs)
+selectMenu(PAResourceQtoS.SelectMenu_MARK, "Mark"); // af (ao, cs)
+selectMenu(PAResourceQtoS.SelectMenu_MARK, "Mark"); // af (ao, cs)
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // af (ao, cs)
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // af (ao, cs)
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // af (ao, cs)
+selectMenu(PAResourceOtoP.PrimitivesMenu_HIGHLIGHT_LEAF_CELLS, "Highlight Leaf Cells"); // af (ao, cs)
+selectMenu(PAResourceItoN.InstanceMenu_FLOORPLANNING, "Floorplanning"); // af (ao, cs)
+selectMenu(PAResourceItoN.InstanceMenu_FLOORPLANNING, "Floorplanning"); // af (ao, cs)
+selectMenuItem(PAResourceCommand.PACommandNames_DRAW_PBLOCK_MODE, "Draw Pblock"); // ai (cs)
+// Run Command: PAResourceCommand.PACommandNames_DRAW_PBLOCK_MODE
+// Device view-level: 0.3
+// Device view-level: 0.9
+// Device view-level: 1.2
+// HMemoryUtils.trashcanNow. Engine heap size: 2,030 MB. GUI used memory: 152 MB. Current time: 5/27/24, 8:05:50 AM EET
+// Device view-level: 1.5
+// Device view-level: 1.8
+// HMemoryUtils.trashcanNow. Engine heap size: 2,030 MB. GUI used memory: 152 MB. Current time: 5/27/24, 8:05:53 AM EET
+// Device view-level: 2.0
+// HMemoryUtils.trashcanNow. Engine heap size: 2,030 MB. GUI used memory: 152 MB. Current time: 5/27/24, 8:05:54 AM EET
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 152503, 191131); // E (F, cs)
+// Device view-level: 2.0
+// Device view-level: 2.0
+// HMemoryUtils.trashcanNow. Engine heap size: 2,030 MB. GUI used memory: 152 MB. Current time: 5/27/24, 8:06:02 AM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,030 MB. GUI used memory: 152 MB. Current time: 5/27/24, 8:06:04 AM EET
+// r (cs): New Pblock: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+// TclEventType: PHY_BLOCK_NEW
+// TclEventType: PHY_RECT_SELECT
+// TclEventType: PHY_BLOCK_MODIFY
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: PHY_RECT_SELECT
+// TclEventType: PHY_BLOCK_ADD_INST
+// Tcl Message: startgroup 
+// Tcl Message: create_pblock pblock_host_client 
+// Tcl Message: resize_pblock pblock_host_client -add SLICE_X30Y76:SLICE_X33Y98 
+// Tcl Message: add_cells_to_pblock pblock_host_client [get_cells [list host_client]] -clear_locs 
+// Tcl Message: endgroup 
+dismissDialog("New Pblock"); // r (cs)
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 127506, 257269); // E (F, cs)
+// Device select: 'Clock Region - X0Y1'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 1525, 3077, 1055, 419); // U (m, cs)
+// Device view-level: 1.8
+// HMemoryUtils.trashcanNow. Engine heap size: 2,030 MB. GUI used memory: 157 MB. Current time: 5/27/24, 8:06:12 AM EET
+// Device view-level: 1.5
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 129053, 257165); // E (F, cs)
+// Device select: 'Clock Region - X0Y1'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 686, 1367, 1055, 419); // U (m, cs)
+// Run Command: PAResourceCommand.PACommandNames_SAVE_DESIGN
+// A (cs): Out of Date Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// a (cs): Save Constraints: addNotify
+dismissDialog("Out of Date Design"); // A (cs)
+// 'h' command handler elapsed time: 3 seconds
+dismissDialog("Save Constraints"); // a (cs)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aa (q, cs)
+selectMenu(PAResourceItoN.MainMenuMgr_IO, "IO"); // af (cs)
+selectMenu(PAResourceItoN.MainMenuMgr_TIMING, "Timing"); // af (cs)
+selectMenu(PAResourceItoN.MainMenuMgr_IO, "IO"); // af (cs)
+selectMenu(PAResourceItoN.MainMenuMgr_TIMING, "Timing"); // af (cs)
+selectMenuItem(PAResourceCommand.PACommandNames_REPORT_DRC, "Report DRC..."); // ai (cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aa (q, cs)
+// Run Command: PAResourceCommand.PACommandNames_REPORT_DRC
+// i (cs): Report DRC: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  2328 ms.
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (i)
+// bz (cs):  Run DRC : addNotify
+// Tcl Message: INFO: [IP_Flow 19-1839] IP Catalog is up to date. 
+// Tcl Message: report_drc -name drc_1 -ruledecks {default} 
+// Tcl Message: Command: report_drc -name drc_1 -ruledecks default 
+// Tcl Message: INFO: [IP_Flow 19-1839] IP Catalog is up to date. INFO: [DRC 23-27] Running DRC with 2 threads 
+// TclEventType: DRC_ADDED
+// Tcl Message: report_drc completed successfully 
+dismissDialog("Run DRC"); // bz (cs)
+selectTreeTable(PAResourceTtoZ.VioTreeTablePanel_VIO_TREE_TABLE, "CFGBVS-1 ;  ; ", 2, "CFGBVS-1", 0, true); // P (J, cs) - Node
+collapseTreeTable(PAResourceTtoZ.VioTreeTablePanel_VIO_TREE_TABLE, "Pin Planning (1) ;  ; ", 1); // P (J, cs)
+collapseTreeTable(PAResourceTtoZ.VioTreeTablePanel_VIO_TREE_TABLE, "DPIP-1 ;  ; ", 6); // P (J, cs)
+collapseTreeTable(PAResourceTtoZ.VioTreeTablePanel_VIO_TREE_TABLE, "DPOP-1 ;  ; ", 7); // P (J, cs)
+selectTreeTable(PAResourceTtoZ.VioTreeTablePanel_VIO_TREE_TABLE, "DPOP-2 ;  ; ", 8, "DPOP-2", 0, true); // P (J, cs) - Node
+collapseTreeTable(PAResourceTtoZ.VioTreeTablePanel_VIO_TREE_TABLE, "DPOP-2 ;  ; ", 8); // P (J, cs)
+expandTreeTable(PAResourceTtoZ.VioTreeTablePanel_VIO_TREE_TABLE, "DPIP-1 ;  ; ", 6); // P (J, cs)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aa (q, cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aa (q, cs)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // aa (q, cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // aa (q, cs)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aa (q, cs)
+selectMenu(PAResourceItoN.MainMenuMgr_IO, "IO"); // af (cs)
+selectMenu(PAResourceItoN.MainMenuMgr_TIMING, "Timing"); // af (cs)
+selectMenuItem(PAResourceCommand.PACommandNames_REPORT_DRC, "Report DRC..."); // ai (cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aa (q, cs)
+// Run Command: PAResourceCommand.PACommandNames_REPORT_DRC
+// i (cs): Report DRC: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1142 ms.
+selectTree(PAResourceQtoS.SelectVioSpecPanel_CHECK_BOX_TREE, "[All Rules]", 0, true); // v (J, i) - Node
+selectTree(PAResourceQtoS.SelectVioSpecPanel_CHECK_BOX_TREE, "[All Rules, Netlist]", 1, true); // v (J, i) - Node
+selectTree(PAResourceQtoS.SelectVioSpecPanel_CHECK_BOX_TREE, "[All Rules, Pin Planning]", 2, true); // v (J, i) - Node
+selectTree(PAResourceQtoS.SelectVioSpecPanel_CHECK_BOX_TREE, "[All Rules, Clocking]", 3, true); // v (J, i) - Node
+selectTree(PAResourceQtoS.SelectVioSpecPanel_CHECK_BOX_TREE, "[All Rules, Implementation]", 6, true); // v (J, i) - Node
+// Elapsed time: 11 seconds
+selectTree(PAResourceQtoS.SelectVioSpecPanel_CHECK_BOX_TREE, "[All Rules, Memory]", 4, true); // v (J, i) - Node
+selectTree(PAResourceQtoS.SelectVioSpecPanel_CHECK_BOX_TREE, "[All Rules, Floorplan]", 5, true); // v (J, i) - Node
+selectTree(PAResourceQtoS.SelectVioSpecPanel_CHECK_BOX_TREE, "[All Rules, Physical Configuration]", 7, true); // v (J, i) - Node
+selectTree(PAResourceQtoS.SelectVioSpecPanel_CHECK_BOX_TREE, "[All Rules, DRC System]", 8, true); // v (J, i) - Node
+selectTree(PAResourceQtoS.SelectVioSpecPanel_CHECK_BOX_TREE, "[All Rules, Advwizio]", 9, true); // v (J, i) - Node
+selectTree(PAResourceQtoS.SelectVioSpecPanel_CHECK_BOX_TREE, "[All Rules, Dynamic Function eXchange]", 10, true); // v (J, i) - Node
+selectTree(PAResourceQtoS.SelectVioSpecPanel_CHECK_BOX_TREE, "[All Rules, Dynamic Function eXchange]", 10, true); // v (J, i) - Node
+selectTree(PAResourceQtoS.SelectVioSpecPanel_CHECK_BOX_TREE, "[All Rules, SelectIO]", 11, true); // v (J, i) - Node
+selectTree(PAResourceQtoS.SelectVioSpecPanel_CHECK_BOX_TREE, "[All Rules, MGT]", 12, true); // v (J, i) - Node
+selectTree(PAResourceQtoS.SelectVioSpecPanel_CHECK_BOX_TREE, "[All Rules, MGT]", 12, true); // v (J, i) - Node
+selectTree(PAResourceQtoS.SelectVioSpecPanel_CHECK_BOX_TREE, "[All Rules, XPHYIO]", 13, true); // v (J, i) - Node
+selectTree(PAResourceQtoS.SelectVioSpecPanel_CHECK_BOX_TREE, "[All Rules, MGT]", 12, true); // v (J, i) - Node
+selectTree(PAResourceQtoS.SelectVioSpecPanel_CHECK_BOX_TREE, "[All Rules, Project]", 14, true); // v (J, i) - Node
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (i)
+// bz (cs):  Run DRC : addNotify
+dismissDialog("Report DRC"); // i (cs)
+// Tcl Message: create_drc_ruledeck ruledeck_1 
+// TclEventType: DRC_ADDED
+// Tcl Message: report_drc -name drc_2 -ruledecks {ruledeck_1} 
+// Tcl Message: Command: report_drc -name drc_2 -ruledecks ruledeck_1 
+// Tcl Message: INFO: [DRC 23-27] Running DRC with 2 threads 
+// Tcl Message: report_drc completed successfully 
+// Tcl Message: delete_drc_ruledeck ruledeck_1 
+dismissDialog("Run DRC"); // bz (cs)
+selectTreeTable(PAResourceTtoZ.VioTreeTablePanel_VIO_TREE_TABLE, "HDPRABS #1 ; Error ; The expanded routing region for HD.RECONFIGURABLE cell 'host_client' is not aligned to the top and bottom of clock regions. In abstract shell flow, the expanded routing region must be aligned to top and bottom clock regions to ensure valid cell bitstream. These tiles must be included in the expanded routing region: .   CLBLM_L_X20Y99.   INT_L_X20Y99.   INT_R_X21Y99.   CLBLL_R_X21Y99.   CLBLM_L_X20Y75.   INT_L_X20Y75.   INT_R_X21Y75.   CLBLL_R_X21Y75.   CLBLM_L_X20Y74.   INT_L_X20Y74.   INT_R_X21Y74.   CLBLL_R_X21Y74.   CLBLM_L_X20Y73.   INT_L_X20Y73.   INT_R_X21Y73.   CLBLL_R_X21Y73.   CLBLM_L_X20Y72.   INT_L_X20Y72.   INT_R_X21Y72.   CLBLL_R_X21Y72.   CLBLM_L_X20Y71.   INT_L_X20Y71.   INT_R_X21Y71.   CLBLL_R_X21Y71.   CLBLM_L_X20Y70.   INT_L_X20Y70.   INT_R_X21Y70.   CLBLL_R_X21Y70.   CLBLM_L_X20Y69.   INT_L_X20Y69.   INT_R_X21Y69.   CLBLL_R_X21Y69.   CLBLM_L_X20Y68.   INT_L_X20Y68.   INT_R_X21Y68.   CLBLL_R_X21Y68.   CLBLM_L_X20Y67.   INT_L_X20Y67.   INT_R_X21Y67.   CLBLL_R_X21Y67.   CLBLM_L_X20Y66.   INT_L_X20Y66.   INT_R_X21Y66.   CLBLL_R_X21Y66.   CLBLM_L_X20Y65.   INT_L_X20Y65.   INT_R_X21Y65.   CLBLL_R_X21Y65.   CLBLM_L_X20Y64.   INT_L_X20Y64.   INT_R_X21Y64.   CLBLL_R_X21Y64.   CLBLM_L_X20Y63.   INT_L_X20Y63.   INT_R_X21Y63.   CLBLL_R_X21Y63.   CLBLM_L_X20Y62.   INT_L_X20Y62.   INT_R_X21Y62.   CLBLL_R_X21Y62.   CLBLM_L_X20Y61.   INT_L_X20Y61.   INT_R_X21Y61.   CLBLL_R_X21Y61.   CLBLM_L_X20Y60.   INT_L_X20Y60.   INT_R_X21Y60.   CLBLL_R_X21Y60.   CLBLM_L_X20Y59.   INT_L_X20Y59.   INT_R_X21Y59.   CLBLL_R_X21Y59.   CLBLM_L_X20Y58.   INT_L_X20Y58.   INT_R_X21Y58.   CLBLL_R_X21Y58.   CLBLM_L_X20Y57.   INT_L_X20Y57.   INT_R_X21Y57.   CLBLL_R_X21Y57.   CLBLM_L_X20Y56.   INT_L_X20Y56.   INT_R_X21Y56.   CLBLL_R_X21Y56.   CLBLM_L_X20Y55.   INT_L_X20Y55.   INT_R_X21Y55.   CLBLL_R_X21Y55.   CLBLM_L_X20Y54.   INT_L_X20Y54.   INT_R_X21Y54.   CLBLL_R_X21Y54.   CLBLM_L_X20Y53.   INT_L_X20Y53.   INT_R_X21Y53.   CLBLL_R_X21Y53.   CLBLM_L_X20Y52.   INT_L_X20Y52.   INT_R_X21Y52.   CLBLL_R_X21Y52.   CLBLM_L_X20Y51.   INT_L_X20Y51.   INT_R_X21Y51.   CLBLL_R_X21Y51.   CLBLM_L_X20Y50.   INT_L_X20Y50.   INT_R_X21Y50.   CLBLL_R_X21Y50. ", 4, "The expanded routing region for HD.RECONFIGURABLE cell 'host_client' is not aligned to the top and bottom of clock regions. In abstract shell flow, the expanded routing region must be aligned to top and bottom clock regions to ensure valid cell bitstream. These tiles must be included in the expanded routing region: .   CLBLM_L_X20Y99.   INT_L_X20Y99.   INT_R_X21Y99.   CLBLL_R_X21Y99.   CLBLM_L_X20Y75.   INT_L_X20Y75.   INT_R_X21Y75.   CLBLL_R_X21Y75.   CLBLM_L_X20Y74.   INT_L_X20Y74.   INT_R_X21Y74.   CLBLL_R_X21Y74.   CLBLM_L_X20Y73.   INT_L_X20Y73.   INT_R_X21Y73.   CLBLL_R_X21Y73.   CLBLM_L_X20Y72.   INT_L_X20Y72.   INT_R_X21Y72.   CLBLL_R_X21Y72.   CLBLM_L_X20Y71.   INT_L_X20Y71.   INT_R_X21Y71.   CLBLL_R_X21Y71.   CLBLM_L_X20Y70.   INT_L_X20Y70.   INT_R_X21Y70.   CLBLL_R_X21Y70.   CLBLM_L_X20Y69.   INT_L_X20Y69.   INT_R_X21Y69.   CLBLL_R_X21Y69.   CLBLM_L_X20Y68.   INT_L_X20Y68.   INT_R_X21Y68.   CLBLL_R_X21Y68.   CLBLM_L_X20Y67.   INT_L_X20Y67.   INT_R_X21Y67.   CLBLL_R_X21Y67.   CLBLM_L_X20Y66.   INT_L_X20Y66.   INT_R_X21Y66.   CLBLL_R_X21Y66.   CLBLM_L_X20Y65.   INT_L_X20Y65.   INT_R_X21Y65.   CLBLL_R_X21Y65.   CLBLM_L_X20Y64.   INT_L_X20Y64.   INT_R_X21Y64.   CLBLL_R_X21Y64.   CLBLM_L_X20Y63.   INT_L_X20Y63.   INT_R_X21Y63.   CLBLL_R_X21Y63.   CLBLM_L_X20Y62.   INT_L_X20Y62.   INT_R_X21Y62.   CLBLL_R_X21Y62.   CLBLM_L_X20Y61.   INT_L_X20Y61.   INT_R_X21Y61.   CLBLL_R_X21Y61.   CLBLM_L_X20Y60.   INT_L_X20Y60.   INT_R_X21Y60.   CLBLL_R_X21Y60.   CLBLM_L_X20Y59.   INT_L_X20Y59.   INT_R_X21Y59.   CLBLL_R_X21Y59.   CLBLM_L_X20Y58.   INT_L_X20Y58.   INT_R_X21Y58.   CLBLL_R_X21Y58.   CLBLM_L_X20Y57.   INT_L_X20Y57.   INT_R_X21Y57.   CLBLL_R_X21Y57.   CLBLM_L_X20Y56.   INT_L_X20Y56.   INT_R_X21Y56.   CLBLL_R_X21Y56.   CLBLM_L_X20Y55.   INT_L_X20Y55.   INT_R_X21Y55.   CLBLL_R_X21Y55.   CLBLM_L_X20Y54.   INT_L_X20Y54.   INT_R_X21Y54.   CLBLL_R_X21Y54.   CLBLM_L_X20Y53.   INT_L_X20Y53.   INT_R_X21Y53.   CLBLL_R_X21Y53.   CLBLM_L_X20Y52.   INT_L_X20Y52.   INT_R_X21Y52.   CLBLL_R_X21Y52.   CLBLM_L_X20Y51.   INT_L_X20Y51.   INT_R_X21Y51.   CLBLL_R_X21Y51.   CLBLM_L_X20Y50.   INT_L_X20Y50.   INT_R_X21Y50.   CLBLL_R_X21Y50. ", 2, false); // P (J, cs)
+// Device view-level: 1.8
+// HMemoryUtils.trashcanNow. Engine heap size: 2,030 MB. GUI used memory: 160 MB. Current time: 5/27/24, 8:08:12 AM EET
+// Device view-level: 2.0
+// Device view-level: 2.3
+// Device view-level: 2.6
+// Device view-level: 2.9
+// Device view-level: 3.2
+// HMemoryUtils.trashcanNow. Engine heap size: 2,030 MB. GUI used memory: 159 MB. Current time: 5/27/24, 8:08:15 AM EET
+// Device view-level: 2.9
+// Device view-level: 2.6
+// Device view-level: 2.3
+// Device view-level: 2.0
+// Device view-level: 1.8
+// HMemoryUtils.trashcanNow. Engine heap size: 2,030 MB. GUI used memory: 159 MB. Current time: 5/27/24, 8:08:16 AM EET
+// Device view-level: 1.5
+// Device view-level: 1.2
+// Device view-level: 0.9
+// Elapsed time: 17 seconds
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 353084, 250580); // E (F, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,030 MB. GUI used memory: 160 MB. Current time: 5/27/24, 8:08:18 AM EET
+// Device view-level: 1.2
+// Device view-level: 1.5
+// HMemoryUtils.trashcanNow. Engine heap size: 2,030 MB. GUI used memory: 160 MB. Current time: 5/27/24, 8:08:23 AM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,030 MB. GUI used memory: 159 MB. Current time: 5/27/24, 8:08:23 AM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,030 MB. GUI used memory: 159 MB. Current time: 5/27/24, 8:08:24 AM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,030 MB. GUI used memory: 159 MB. Current time: 5/27/24, 8:08:25 AM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,030 MB. GUI used memory: 159 MB. Current time: 5/27/24, 8:08:26 AM EET
+// Device view-level: 1.2
+// Device view-level: 0.9
+// Device view-level: 0.6
+// Device view-level: 0.3
+// HMemoryUtils.trashcanNow. Engine heap size: 2,030 MB. GUI used memory: 160 MB. Current time: 5/27/24, 8:08:34 AM EET
+// Device view-level: 0.6
+// Device view-level: 0.9
+// Device view-level: 1.2
+// Elapsed time: 19 seconds
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[multiplayer_game_top, host_client (host)]", 5, false); // bD (J, cs)
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[multiplayer_game_top, host_client (host)]", 5, false, false, false, false, true, false); // bD (J, cs) - Popup Trigger
+selectMenu(PAResourceItoN.InstanceMenu_FLOORPLANNING, "Floorplanning"); // af (ao, cs)
+selectMenuItem(PAResourceCommand.PACommandNames_DRAW_PBLOCK_MODE, "Draw Pblock"); // ai (cs)
+// Run Command: PAResourceCommand.PACommandNames_DRAW_PBLOCK_MODE
+// Run Command: RDIResourceCommand.RDICommands_UNDO
+typeControlKey(null, null, 'z');
+// TclEventType: LOC_CONSTRAINT_MODIFY
+// TclEventType: PHY_RECT_SELECT
+// TclEventType: PHY_BLOCK_MODIFY
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: PHY_RECT_SELECT
+// TclEventType: PHY_BLOCK_DELETE
+// Tcl Message: undo 
+// Tcl Message: INFO: [Common 17-17] undo 'endgroup' INFO: [Common 17-17] undo 'add_cells_to_pblock pblock_host_client [get_cells [list host_client]] -clear_locs' INFO: [Common 17-17] undo 'resize_pblock pblock_host_client -add SLICE_X30Y76:SLICE_X33Y98' INFO: [Common 17-17] undo 'create_pblock pblock_host_client' INFO: [Common 17-17] undo 'startgroup' 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,030 MB. GUI used memory: 160 MB. Current time: 5/27/24, 8:08:44 AM EET
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[multiplayer_game_top, host_client (host)]", 5, false); // bD (J, cs)
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[multiplayer_game_top, host_client (host)]", 5, false, false, false, false, true, false); // bD (J, cs) - Popup Trigger
+selectMenu(PAResourceItoN.InstanceMenu_FLOORPLANNING, "Floorplanning"); // af (ao, cs)
+selectMenu(PAResourceItoN.InstanceMenu_FLOORPLANNING, "Floorplanning"); // af (ao, cs)
+selectMenuItem(PAResourceCommand.PACommandNames_DRAW_PBLOCK_MODE, "Draw Pblock"); // ai (cs)
+// Run Command: PAResourceCommand.PACommandNames_DRAW_PBLOCK_MODE
+// Device view-level: 1.5
+// Device view-level: 1.8
+// Device view-level: 2.0
+// Device view-level: 2.3
+// Device view-level: 2.6
+// HMemoryUtils.trashcanNow. Engine heap size: 2,030 MB. GUI used memory: 160 MB. Current time: 5/27/24, 8:08:50 AM EET
+// Device view-level: 2.3
+// Device view-level: 2.0
+// Device view-level: 1.8
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 151753, 191635); // E (F, cs)
+// r (cs): New Pblock: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,030 MB. GUI used memory: 160 MB. Current time: 5/27/24, 8:08:57 AM EET
+dismissDialog("New Pblock"); // r (cs)
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[multiplayer_game_top, host_client (host)]", 5, false, false, false, false, true, false); // bD (J, cs) - Popup Trigger
+selectMenu(PAResourceItoN.InstanceMenu_FLOORPLANNING, "Floorplanning"); // af (ao, cs)
+selectMenuItem(PAResourceCommand.PACommandNames_DRAW_PBLOCK_MODE, "Draw Pblock"); // ai (cs)
+// Run Command: PAResourceCommand.PACommandNames_DRAW_PBLOCK_MODE
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 152380, 191259); // E (F, cs)
+// r (cs): New Pblock: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+dismissDialog("New Pblock"); // r (cs)
+// Device view-level: 2.0
+// Device view-level: 2.3
+// HMemoryUtils.trashcanNow. Engine heap size: 2,030 MB. GUI used memory: 160 MB. Current time: 5/27/24, 8:09:08 AM EET
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[multiplayer_game_top, host_client (host)]", 5, false, false, false, false, true, false); // bD (J, cs) - Popup Trigger
+selectMenu(PAResourceItoN.InstanceMenu_FLOORPLANNING, "Floorplanning"); // af (ao, cs)
+selectMenu(PAResourceOtoP.PrimitivesMenu_HIGHLIGHT_LEAF_CELLS, "Highlight Leaf Cells"); // af (ao, cs)
+selectMenu(PAResourceItoN.InstanceMenu_FLOORPLANNING, "Floorplanning"); // af (ao, cs)
+selectMenuItem(PAResourceCommand.PACommandNames_DRAW_PBLOCK_MODE, "Draw Pblock"); // ai (cs)
+// Run Command: PAResourceCommand.PACommandNames_DRAW_PBLOCK_MODE
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 152394, 190799); // E (F, cs)
+// r (cs): New Pblock: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+dismissDialog("New Pblock"); // r (cs)
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 152840, 190910); // E (F, cs)
+// Device view-level: 3.0
+// Device view-level: 2.7
+// Device view-level: 2.4
+// HMemoryUtils.trashcanNow. Engine heap size: 2,030 MB. GUI used memory: 161 MB. Current time: 5/27/24, 8:09:20 AM EET
+// Device view-level: 2.1
+// Device view-level: 1.8
+// Device view-level: 1.6
+// Device view-level: 1.3
+// HMemoryUtils.trashcanNow. Engine heap size: 2,030 MB. GUI used memory: 162 MB. Current time: 5/27/24, 8:09:22 AM EET
+// Device view-level: 1.0
+// Device view-level: 1.3
+// Device view-level: 1.6
+// Device view-level: 1.8
+// Device view-level: 2.1
+// HMemoryUtils.trashcanNow. Engine heap size: 2,030 MB. GUI used memory: 162 MB. Current time: 5/27/24, 8:09:25 AM EET
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[multiplayer_game_top, host_client (host)]", 5, false, false, false, false, true, false); // bD (J, cs) - Popup Trigger
+selectMenu(PAResourceItoN.InstanceMenu_FLOORPLANNING, "Floorplanning"); // af (ao, cs)
+selectMenu(PAResourceItoN.InstanceMenu_FLOORPLANNING, "Floorplanning"); // af (ao, cs)
+selectMenuItem(PAResourceCommand.PACommandNames_DRAW_PBLOCK_MODE, "Draw Pblock"); // ai (cs)
+// Run Command: PAResourceCommand.PACommandNames_DRAW_PBLOCK_MODE
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 152939, 190915); // E (F, cs)
+// Device view-level: 2.1
+// HMemoryUtils.trashcanNow. Engine heap size: 2,030 MB. GUI used memory: 162 MB. Current time: 5/27/24, 8:09:36 AM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,030 MB. GUI used memory: 161 MB. Current time: 5/27/24, 8:09:37 AM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,030 MB. GUI used memory: 161 MB. Current time: 5/27/24, 8:09:39 AM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,030 MB. GUI used memory: 161 MB. Current time: 5/27/24, 8:09:40 AM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,030 MB. GUI used memory: 161 MB. Current time: 5/27/24, 8:09:41 AM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,030 MB. GUI used memory: 161 MB. Current time: 5/27/24, 8:09:43 AM EET
+// r (cs): New Pblock: addNotify

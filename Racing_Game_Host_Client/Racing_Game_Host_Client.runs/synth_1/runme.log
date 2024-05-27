@@ -1,0 +1,513 @@
+
+*** Running vivado
+    with args -log multiplayer_game_top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source multiplayer_game_top.tcl
+
+
+
+****** Vivado v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source multiplayer_game_top.tcl -notrace
+Command: synth_design -top multiplayer_game_top -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 28468
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1037.891 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'multiplayer_game_top' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/multiplayer_game_top.vhd:56]
+INFO: [Synth 8-3491] module 'clk_wiz_0' declared at 'C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.runs/synth_1/.Xil/Vivado-24988-Ann/realtime/clk_wiz_0_stub.vhdl:5' bound to instance 'clk_wizard' of component 'clk_wiz_0' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/multiplayer_game_top.vhd:145]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.runs/synth_1/.Xil/Vivado-24988-Ann/realtime/clk_wiz_0_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'vga_multiplayer' declared at 'C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/vga_multiplayer.vhd:14' bound to instance 'game' of component 'vga_multiplayer' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/multiplayer_game_top.vhd:151]
+INFO: [Synth 8-638] synthesizing module 'vga_multiplayer' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/vga_multiplayer.vhd:34]
+INFO: [Synth 8-3491] module 'car' declared at 'C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.runs/synth_1/.Xil/Vivado-24988-Ann/realtime/car_stub.vhdl:5' bound to instance 'pixel_array' of component 'car' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/vga_multiplayer.vhd:355]
+INFO: [Synth 8-638] synthesizing module 'car' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.runs/synth_1/.Xil/Vivado-24988-Ann/realtime/car_stub.vhdl:16]
+INFO: [Synth 8-3491] module 'clk_wiz_0' declared at 'C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.runs/synth_1/.Xil/Vivado-24988-Ann/realtime/clk_wiz_0_stub.vhdl:5' bound to instance 'clk_wizard' of component 'clk_wiz_0' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/vga_multiplayer.vhd:364]
+INFO: [Synth 8-3491] module 'start_display' declared at 'C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/start_display.v:1' bound to instance 'start_screen' of component 'start_display' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/vga_multiplayer.vhd:371]
+INFO: [Synth 8-6157] synthesizing module 'start_display' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/start_display.v:1]
+INFO: [Synth 8-6157] synthesizing module 'start_display_ROM' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/start_display_ROM.v:1]
+WARNING: [Synth 8-151] case item 11'b10001000011 is unreachable [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/start_display_ROM.v:15]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/start_display_ROM.v:15]
+INFO: [Synth 8-6155] done synthesizing module 'start_display_ROM' (1#1) [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/start_display_ROM.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'start_display' (2#1) [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/start_display.v:1]
+INFO: [Synth 8-3491] module 'final_display' declared at 'C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_test.v:9' bound to instance 'game_over' of component 'final_display' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/vga_multiplayer.vhd:380]
+INFO: [Synth 8-6157] synthesizing module 'final_display' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_test.v:9]
+	Parameter first_place_X_L bound to: 240 - type: integer 
+	Parameter first_place_X_R bound to: 247 - type: integer 
+	Parameter first_place_Y_T bound to: 128 - type: integer 
+	Parameter first_place_Y_B bound to: 144 - type: integer 
+	Parameter second_place_X_L bound to: 240 - type: integer 
+	Parameter second_place_X_R bound to: 247 - type: integer 
+	Parameter second_place_Y_T bound to: 160 - type: integer 
+	Parameter second_place_Y_B bound to: 176 - type: integer 
+	Parameter third_place_X_L bound to: 240 - type: integer 
+	Parameter third_place_X_R bound to: 247 - type: integer 
+	Parameter third_place_Y_T bound to: 192 - type: integer 
+	Parameter third_place_Y_B bound to: 208 - type: integer 
+	Parameter fourth_place_X_L bound to: 240 - type: integer 
+	Parameter fourth_place_X_R bound to: 247 - type: integer 
+	Parameter fourth_place_Y_T bound to: 224 - type: integer 
+	Parameter fourth_place_Y_B bound to: 240 - type: integer 
+	Parameter player1_X_L bound to: 256 - type: integer 
+	Parameter player1_X_R bound to: 303 - type: integer 
+	Parameter player1_Y_T bound to: 128 - type: integer 
+	Parameter player1_Y_B bound to: 144 - type: integer 
+	Parameter player2_X_L bound to: 256 - type: integer 
+	Parameter player2_X_R bound to: 303 - type: integer 
+	Parameter player2_Y_T bound to: 160 - type: integer 
+	Parameter player2_Y_B bound to: 176 - type: integer 
+	Parameter player3_X_L bound to: 256 - type: integer 
+	Parameter player3_X_R bound to: 303 - type: integer 
+	Parameter player3_Y_T bound to: 192 - type: integer 
+	Parameter player3_Y_B bound to: 208 - type: integer 
+	Parameter player4_X_L bound to: 256 - type: integer 
+	Parameter player4_X_R bound to: 303 - type: integer 
+	Parameter player4_Y_T bound to: 224 - type: integer 
+	Parameter player4_Y_B bound to: 240 - type: integer 
+	Parameter player1_value_X_L bound to: 304 - type: integer 
+	Parameter player1_value_X_R bound to: 311 - type: integer 
+	Parameter player1_value_Y_T bound to: 128 - type: integer 
+	Parameter player1_value_Y_B bound to: 144 - type: integer 
+	Parameter player2_value_X_L bound to: 304 - type: integer 
+	Parameter player2_value_X_R bound to: 311 - type: integer 
+	Parameter player2_value_Y_T bound to: 160 - type: integer 
+	Parameter player2_value_Y_B bound to: 176 - type: integer 
+	Parameter player3_value_X_L bound to: 304 - type: integer 
+	Parameter player3_value_X_R bound to: 311 - type: integer 
+	Parameter player3_value_Y_T bound to: 192 - type: integer 
+	Parameter player3_value_Y_B bound to: 208 - type: integer 
+	Parameter player4_value_X_L bound to: 304 - type: integer 
+	Parameter player4_value_X_R bound to: 311 - type: integer 
+	Parameter player4_value_Y_T bound to: 224 - type: integer 
+	Parameter player4_value_Y_B bound to: 240 - type: integer 
+	Parameter S10000_X_L bound to: 320 - type: integer 
+	Parameter S10000_X_R bound to: 327 - type: integer 
+	Parameter S10000_Y_T bound to: 128 - type: integer 
+	Parameter S10000_Y_B bound to: 144 - type: integer 
+	Parameter S1000_X_L bound to: 328 - type: integer 
+	Parameter S1000_X_R bound to: 335 - type: integer 
+	Parameter S1000_Y_T bound to: 128 - type: integer 
+	Parameter S1000_Y_B bound to: 144 - type: integer 
+	Parameter S100_X_L bound to: 336 - type: integer 
+	Parameter S100_X_R bound to: 343 - type: integer 
+	Parameter S100_Y_T bound to: 128 - type: integer 
+	Parameter S100_Y_B bound to: 144 - type: integer 
+	Parameter S10_X_L bound to: 344 - type: integer 
+	Parameter S10_X_R bound to: 351 - type: integer 
+	Parameter S10_Y_T bound to: 128 - type: integer 
+	Parameter S10_Y_B bound to: 144 - type: integer 
+	Parameter S1_X_L bound to: 352 - type: integer 
+	Parameter S1_X_R bound to: 359 - type: integer 
+	Parameter S1_Y_T bound to: 128 - type: integer 
+	Parameter S1_Y_B bound to: 144 - type: integer 
+	Parameter S20000_X_L bound to: 320 - type: integer 
+	Parameter S20000_X_R bound to: 327 - type: integer 
+	Parameter S20000_Y_T bound to: 160 - type: integer 
+	Parameter S20000_Y_B bound to: 176 - type: integer 
+	Parameter S2000_X_L bound to: 328 - type: integer 
+	Parameter S2000_X_R bound to: 335 - type: integer 
+	Parameter S2000_Y_T bound to: 160 - type: integer 
+	Parameter S2000_Y_B bound to: 176 - type: integer 
+	Parameter S200_X_L bound to: 336 - type: integer 
+	Parameter S200_X_R bound to: 343 - type: integer 
+	Parameter S200_Y_T bound to: 160 - type: integer 
+	Parameter S200_Y_B bound to: 176 - type: integer 
+	Parameter S20_X_L bound to: 344 - type: integer 
+	Parameter S20_X_R bound to: 351 - type: integer 
+	Parameter S20_Y_T bound to: 160 - type: integer 
+	Parameter S20_Y_B bound to: 176 - type: integer 
+	Parameter S2_X_L bound to: 352 - type: integer 
+	Parameter S2_X_R bound to: 359 - type: integer 
+	Parameter S2_Y_T bound to: 160 - type: integer 
+	Parameter S2_Y_B bound to: 176 - type: integer 
+	Parameter S30000_X_L bound to: 320 - type: integer 
+	Parameter S30000_X_R bound to: 327 - type: integer 
+	Parameter S30000_Y_T bound to: 192 - type: integer 
+	Parameter S30000_Y_B bound to: 208 - type: integer 
+	Parameter S3000_X_L bound to: 328 - type: integer 
+	Parameter S3000_X_R bound to: 335 - type: integer 
+	Parameter S3000_Y_T bound to: 192 - type: integer 
+	Parameter S3000_Y_B bound to: 208 - type: integer 
+	Parameter S300_X_L bound to: 336 - type: integer 
+	Parameter S300_X_R bound to: 343 - type: integer 
+	Parameter S300_Y_T bound to: 192 - type: integer 
+	Parameter S300_Y_B bound to: 208 - type: integer 
+	Parameter S30_X_L bound to: 344 - type: integer 
+	Parameter S30_X_R bound to: 351 - type: integer 
+	Parameter S30_Y_T bound to: 192 - type: integer 
+	Parameter S30_Y_B bound to: 208 - type: integer 
+	Parameter S3_X_L bound to: 352 - type: integer 
+	Parameter S3_X_R bound to: 359 - type: integer 
+	Parameter S3_Y_T bound to: 192 - type: integer 
+	Parameter S3_Y_B bound to: 208 - type: integer 
+	Parameter S40000_X_L bound to: 320 - type: integer 
+	Parameter S40000_X_R bound to: 327 - type: integer 
+	Parameter S40000_Y_T bound to: 224 - type: integer 
+	Parameter S40000_Y_B bound to: 240 - type: integer 
+	Parameter S4000_X_L bound to: 328 - type: integer 
+	Parameter S4000_X_R bound to: 335 - type: integer 
+	Parameter S4000_Y_T bound to: 224 - type: integer 
+	Parameter S4000_Y_B bound to: 240 - type: integer 
+	Parameter S400_X_L bound to: 336 - type: integer 
+	Parameter S400_X_R bound to: 343 - type: integer 
+	Parameter S400_Y_T bound to: 224 - type: integer 
+	Parameter S400_Y_B bound to: 240 - type: integer 
+	Parameter S40_X_L bound to: 344 - type: integer 
+	Parameter S40_X_R bound to: 351 - type: integer 
+	Parameter S40_Y_T bound to: 224 - type: integer 
+	Parameter S40_Y_B bound to: 240 - type: integer 
+	Parameter S4_X_L bound to: 352 - type: integer 
+	Parameter S4_X_R bound to: 359 - type: integer 
+	Parameter S4_Y_T bound to: 224 - type: integer 
+	Parameter S4_Y_B bound to: 240 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'ascii_rom' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom.v:22]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'ascii_rom' (3#1) [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'final_display' (4#1) [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_test.v:9]
+INFO: [Synth 8-3491] module 'score_text' declared at 'C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/score_text.v:23' bound to instance 'current_score' of component 'score_text' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/vga_multiplayer.vhd:395]
+INFO: [Synth 8-6157] synthesizing module 'score_text' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/score_text.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ascii_rom_score' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom_score.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom_score.v:37]
+INFO: [Synth 8-6155] done synthesizing module 'ascii_rom_score' (5#1) [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom_score.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'score_text' (6#1) [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/score_text.v:23]
+INFO: [Synth 8-3491] module 'counter_text' declared at 'C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/counter_text.v:23' bound to instance 'score_value' of component 'counter_text' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/vga_multiplayer.vhd:404]
+INFO: [Synth 8-6157] synthesizing module 'counter_text' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/counter_text.v:23]
+	Parameter space_X_L bound to: 72 - type: integer 
+	Parameter space_X_R bound to: 79 - type: integer 
+	Parameter space_Y_T bound to: 64 - type: integer 
+	Parameter space_Y_B bound to: 80 - type: integer 
+	Parameter S10000_X_L bound to: 80 - type: integer 
+	Parameter S10000_X_R bound to: 87 - type: integer 
+	Parameter S10000_Y_T bound to: 64 - type: integer 
+	Parameter S10000_Y_B bound to: 80 - type: integer 
+	Parameter S1000_X_L bound to: 88 - type: integer 
+	Parameter S1000_X_R bound to: 95 - type: integer 
+	Parameter S1000_Y_T bound to: 64 - type: integer 
+	Parameter S1000_Y_B bound to: 80 - type: integer 
+	Parameter S100_X_L bound to: 96 - type: integer 
+	Parameter S100_X_R bound to: 103 - type: integer 
+	Parameter S100_Y_T bound to: 64 - type: integer 
+	Parameter S100_Y_B bound to: 80 - type: integer 
+	Parameter S10_X_L bound to: 104 - type: integer 
+	Parameter S10_X_R bound to: 111 - type: integer 
+	Parameter S10_Y_T bound to: 64 - type: integer 
+	Parameter S10_Y_B bound to: 80 - type: integer 
+	Parameter S1_X_L bound to: 112 - type: integer 
+	Parameter S1_X_R bound to: 119 - type: integer 
+	Parameter S1_Y_T bound to: 64 - type: integer 
+	Parameter S1_Y_B bound to: 80 - type: integer 
+	Parameter space_1_X_L bound to: 120 - type: integer 
+	Parameter space_1_X_R bound to: 127 - type: integer 
+	Parameter space_1_Y_T bound to: 64 - type: integer 
+	Parameter space_1_Y_B bound to: 80 - type: integer 
+	Parameter space_2_X_L bound to: 128 - type: integer 
+	Parameter space_2_X_R bound to: 135 - type: integer 
+	Parameter space_2_Y_T bound to: 64 - type: integer 
+	Parameter space_2_Y_B bound to: 80 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'ascii_rom_counter' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom_counter.v:23]
+WARNING: [Synth 8-151] case item 11'b00000000000 is unreachable [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom_counter.v:37]
+WARNING: [Synth 8-151] case item 11'b00000000001 is unreachable [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom_counter.v:37]
+WARNING: [Synth 8-151] case item 11'b00000000010 is unreachable [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom_counter.v:37]
+WARNING: [Synth 8-151] case item 11'b00000000011 is unreachable [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom_counter.v:37]
+WARNING: [Synth 8-151] case item 11'b00000000100 is unreachable [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom_counter.v:37]
+WARNING: [Synth 8-151] case item 11'b00000000101 is unreachable [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom_counter.v:37]
+WARNING: [Synth 8-151] case item 11'b00000000110 is unreachable [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom_counter.v:37]
+WARNING: [Synth 8-151] case item 11'b00000000111 is unreachable [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom_counter.v:37]
+WARNING: [Synth 8-151] case item 11'b00000001000 is unreachable [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom_counter.v:37]
+WARNING: [Synth 8-151] case item 11'b00000001001 is unreachable [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom_counter.v:37]
+WARNING: [Synth 8-151] case item 11'b00000001010 is unreachable [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom_counter.v:37]
+WARNING: [Synth 8-151] case item 11'b00000001011 is unreachable [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom_counter.v:37]
+WARNING: [Synth 8-151] case item 11'b00000001100 is unreachable [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom_counter.v:37]
+WARNING: [Synth 8-151] case item 11'b00000001101 is unreachable [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom_counter.v:37]
+WARNING: [Synth 8-151] case item 11'b00000001110 is unreachable [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom_counter.v:37]
+WARNING: [Synth 8-151] case item 11'b00000001111 is unreachable [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom_counter.v:37]
+WARNING: [Synth 8-151] case item 11'b00000000000 is unreachable [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom_counter.v:37]
+WARNING: [Synth 8-151] case item 11'b00000000001 is unreachable [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom_counter.v:37]
+WARNING: [Synth 8-151] case item 11'b00000000010 is unreachable [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom_counter.v:37]
+WARNING: [Synth 8-151] case item 11'b00000000011 is unreachable [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom_counter.v:37]
+WARNING: [Synth 8-151] case item 11'b00000000100 is unreachable [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom_counter.v:37]
+WARNING: [Synth 8-151] case item 11'b00000000101 is unreachable [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom_counter.v:37]
+WARNING: [Synth 8-151] case item 11'b00000000110 is unreachable [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom_counter.v:37]
+WARNING: [Synth 8-151] case item 11'b00000000111 is unreachable [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom_counter.v:37]
+WARNING: [Synth 8-151] case item 11'b00000001000 is unreachable [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom_counter.v:37]
+WARNING: [Synth 8-151] case item 11'b00000001001 is unreachable [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom_counter.v:37]
+WARNING: [Synth 8-151] case item 11'b00000001010 is unreachable [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom_counter.v:37]
+WARNING: [Synth 8-151] case item 11'b00000001011 is unreachable [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom_counter.v:37]
+WARNING: [Synth 8-151] case item 11'b00000001100 is unreachable [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom_counter.v:37]
+WARNING: [Synth 8-151] case item 11'b00000001101 is unreachable [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom_counter.v:37]
+WARNING: [Synth 8-151] case item 11'b00000001110 is unreachable [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom_counter.v:37]
+WARNING: [Synth 8-151] case item 11'b00000001111 is unreachable [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom_counter.v:37]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom_counter.v:37]
+INFO: [Synth 8-6155] done synthesizing module 'ascii_rom_counter' (7#1) [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom_counter.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'counter_text' (8#1) [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/counter_text.v:23]
+INFO: [Synth 8-3491] module 'high_score_text' declared at 'C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/high_score_text.v:23' bound to instance 'high_score' of component 'high_score_text' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/vga_multiplayer.vhd:412]
+INFO: [Synth 8-6157] synthesizing module 'high_score_text' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/high_score_text.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ascii_rom_high_score' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom_high_score.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom_high_score.v:37]
+INFO: [Synth 8-6155] done synthesizing module 'ascii_rom_high_score' (9#1) [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom_high_score.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'high_score_text' (10#1) [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/high_score_text.v:23]
+INFO: [Synth 8-3491] module 'stored_counter_text' declared at 'C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/stored_counter_text.v:23' bound to instance 'constant_score_value' of component 'stored_counter_text' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/vga_multiplayer.vhd:420]
+INFO: [Synth 8-6157] synthesizing module 'stored_counter_text' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/stored_counter_text.v:23]
+	Parameter space_X_L bound to: 136 - type: integer 
+	Parameter space_X_R bound to: 143 - type: integer 
+	Parameter space_Y_T bound to: 48 - type: integer 
+	Parameter space_Y_B bound to: 64 - type: integer 
+	Parameter S10000_X_L bound to: 104 - type: integer 
+	Parameter S10000_X_R bound to: 111 - type: integer 
+	Parameter S10000_Y_T bound to: 48 - type: integer 
+	Parameter S10000_Y_B bound to: 64 - type: integer 
+	Parameter S1000_X_L bound to: 112 - type: integer 
+	Parameter S1000_X_R bound to: 119 - type: integer 
+	Parameter S1000_Y_T bound to: 48 - type: integer 
+	Parameter S1000_Y_B bound to: 64 - type: integer 
+	Parameter S100_X_L bound to: 120 - type: integer 
+	Parameter S100_X_R bound to: 127 - type: integer 
+	Parameter S100_Y_T bound to: 48 - type: integer 
+	Parameter S100_Y_B bound to: 64 - type: integer 
+	Parameter S10_X_L bound to: 128 - type: integer 
+	Parameter S10_X_R bound to: 135 - type: integer 
+	Parameter S10_Y_T bound to: 48 - type: integer 
+	Parameter S10_Y_B bound to: 64 - type: integer 
+	Parameter S1_X_L bound to: 136 - type: integer 
+	Parameter S1_X_R bound to: 143 - type: integer 
+	Parameter S1_Y_T bound to: 48 - type: integer 
+	Parameter S1_Y_B bound to: 64 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'stored_counter_text' (11#1) [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/stored_counter_text.v:23]
+INFO: [Synth 8-256] done synthesizing module 'vga_multiplayer' (12#1) [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/vga_multiplayer.vhd:34]
+WARNING: [Synth 8-5640] Port 'rst' is missing in component declaration [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/multiplayer_game_top.vhd:97]
+	Parameter clk_freq bound to: 100000000 - type: integer 
+	Parameter ps2_debounce_counter_size bound to: 9 - type: integer 
+INFO: [Synth 8-3491] module 'ps2_keyboard_to_ascii' declared at 'C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ps2_keyboard_to_ascii.vhd:26' bound to instance 'ps2_keyboard' of component 'ps2_keyboard_to_ascii' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/multiplayer_game_top.vhd:171]
+INFO: [Synth 8-638] synthesizing module 'ps2_keyboard_to_ascii' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ps2_keyboard_to_ascii.vhd:39]
+	Parameter clk_freq bound to: 100000000 - type: integer 
+	Parameter ps2_debounce_counter_size bound to: 9 - type: integer 
+	Parameter clk_freq bound to: 100000000 - type: integer 
+	Parameter debounce_counter_size bound to: 9 - type: integer 
+INFO: [Synth 8-3491] module 'ps2_keyboard' declared at 'C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ps2_keyboard.vhd:26' bound to instance 'ps2_keyboard_0' of component 'ps2_keyboard' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ps2_keyboard_to_ascii.vhd:70]
+INFO: [Synth 8-638] synthesizing module 'ps2_keyboard' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ps2_keyboard.vhd:38]
+	Parameter clk_freq bound to: 100000000 - type: integer 
+	Parameter debounce_counter_size bound to: 9 - type: integer 
+	Parameter counter_size bound to: 9 - type: integer 
+INFO: [Synth 8-3491] module 'debounce' declared at 'C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/debounce.vhd:27' bound to instance 'debounce_ps2_clk' of component 'debounce' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ps2_keyboard.vhd:67]
+INFO: [Synth 8-638] synthesizing module 'debounce' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/debounce.vhd:36]
+	Parameter counter_size bound to: 9 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'debounce' (13#1) [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/debounce.vhd:36]
+	Parameter counter_size bound to: 9 - type: integer 
+INFO: [Synth 8-3491] module 'debounce' declared at 'C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/debounce.vhd:27' bound to instance 'debounce_ps2_data' of component 'debounce' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ps2_keyboard.vhd:70]
+INFO: [Synth 8-256] done synthesizing module 'ps2_keyboard' (14#1) [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ps2_keyboard.vhd:38]
+INFO: [Synth 8-256] done synthesizing module 'ps2_keyboard_to_ascii' (15#1) [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ps2_keyboard_to_ascii.vhd:39]
+INFO: [Synth 8-3491] module 'uart_top_multiplayer' declared at 'C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/uart_top_multiplayer.vhd:36' bound to instance 'uart_1' of component 'uart_top_multiplayer' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/multiplayer_game_top.vhd:182]
+INFO: [Synth 8-638] synthesizing module 'uart_top_multiplayer' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/uart_top_multiplayer.vhd:48]
+	Parameter g_CLKS_PER_BIT bound to: 2605 - type: integer 
+INFO: [Synth 8-3491] module 'uart_rx' declared at 'C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/uart_rx.vhd:5' bound to instance 'uart_rx_0' of component 'uart_rx' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/uart_top_multiplayer.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'uart_rx' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/uart_rx.vhd:18]
+	Parameter g_CLKS_PER_BIT bound to: 2605 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'uart_rx' (16#1) [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/uart_rx.vhd:18]
+	Parameter g_CLKS_PER_BIT bound to: 2605 - type: integer 
+INFO: [Synth 8-3491] module 'uart_tx' declared at 'C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/uart_tx.vhd:5' bound to instance 'uart_tx_0' of component 'uart_tx' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/uart_top_multiplayer.vhd:93]
+INFO: [Synth 8-638] synthesizing module 'uart_tx' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/uart_tx.vhd:20]
+	Parameter g_CLKS_PER_BIT bound to: 2605 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'uart_tx' (17#1) [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/uart_tx.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'uart_top_multiplayer' (18#1) [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/uart_top_multiplayer.vhd:48]
+INFO: [Synth 8-3491] module 'uart_top_multiplayer' declared at 'C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/uart_top_multiplayer.vhd:36' bound to instance 'uart_2' of component 'uart_top_multiplayer' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/multiplayer_game_top.vhd:193]
+INFO: [Synth 8-3491] module 'uart_top_multiplayer' declared at 'C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/uart_top_multiplayer.vhd:36' bound to instance 'uart_3' of component 'uart_top_multiplayer' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/multiplayer_game_top.vhd:204]
+INFO: [Synth 8-3491] module 'host' declared at 'C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.runs/synth_1/.Xil/Vivado-24988-Ann/realtime/host_stub.vhdl:5' bound to instance 'host_client' of component 'host' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/multiplayer_game_top.vhd:219]
+INFO: [Synth 8-638] synthesizing module 'host' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.runs/synth_1/.Xil/Vivado-24988-Ann/realtime/host_stub.vhdl:19]
+INFO: [Synth 8-256] done synthesizing module 'multiplayer_game_top' (19#1) [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/multiplayer_game_top.vhd:56]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1128.527 ; gain = 90.637
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1128.527 ; gain = 90.637
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1128.527 ; gain = 90.637
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.084 . Memory (MB): peak = 1128.527 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.runs/host_synth_1/host/host_in_context.xdc] for cell 'host_client'
+Finished Parsing XDC File [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.runs/host_synth_1/host/host_in_context.xdc] for cell 'host_client'
+Parsing XDC File [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'game/clk_wizard'
+WARNING: [Vivado 12-584] No ports matched ''. [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc:1]
+WARNING: [Vivado 12-584] No ports matched ''. [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc:4]
+Finished Parsing XDC File [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'game/clk_wizard'
+Parsing XDC File [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clk_wizard'
+WARNING: [Vivado 12-584] No ports matched ''. [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc:1]
+WARNING: [Constraints 18-619] A clock with name 'clk' already exists, overwriting the previous clock with the same name. [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc:2]
+WARNING: [Vivado 12-584] No ports matched ''. [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc:4]
+Finished Parsing XDC File [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clk_wizard'
+Parsing XDC File [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/car/car/car_in_context.xdc] for cell 'game/pixel_array'
+Finished Parsing XDC File [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/car/car/car_in_context.xdc] for cell 'game/pixel_array'
+Parsing XDC File [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.runs/synth_1/hd_reconfig.xdc]
+Finished Parsing XDC File [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.runs/synth_1/hd_reconfig.xdc]
+Parsing XDC File [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/display_image.xdc]
+Finished Parsing XDC File [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/display_image.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/display_image.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/multiplayer_game_top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/multiplayer_game_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/constrs_1/new/pblocks.xdc]
+Finished Parsing XDC File [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/constrs_1/new/pblocks.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/constrs_1/new/pblocks.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/multiplayer_game_top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/multiplayer_game_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1263.012 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 1263.012 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1263.012 ; gain = 225.121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1263.012 ; gain = 225.121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk. (constraint file  c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 5).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk. (constraint file  c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 6).
+Applied set_property DONT_TOUCH = true for host_client. (constraint file  C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.runs/synth_1/hd_reconfig.xdc, line 4).
+Applied set_property HD.RECONFIGURABLE = true for host_client. (constraint file  C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.runs/synth_1/hd_reconfig.xdc, line 4).
+Applied set_property DONT_TOUCH = true for game/clk_wizard. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for clk_wizard. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for game/pixel_array. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1263.012 ; gain = 225.121
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'ps2_keyboard_to_ascii'
+INFO: [Synth 8-802] inferred FSM for state register 'r_SM_Main_reg' in module 'uart_tx'
+WARNING: [Synth 8-327] inferring latch for variable 'data_reg' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/start_display_ROM.v:20]
+WARNING: [Synth 8-327] inferring latch for variable 'data_reg' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom.v:41]
+WARNING: [Synth 8-327] inferring latch for variable 'bit_addr_reg' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_test.v:248]
+WARNING: [Synth 8-327] inferring latch for variable 'char_row_reg' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_test.v:247]
+WARNING: [Synth 8-327] inferring latch for variable 'ascii_char_reg' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_test.v:247]
+WARNING: [Synth 8-327] inferring latch for variable 'data_reg' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom_score.v:40]
+WARNING: [Synth 8-327] inferring latch for variable 'data_reg' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom_counter.v:39]
+WARNING: [Synth 8-327] inferring latch for variable 'bit_addr_reg' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/counter_text.v:98]
+WARNING: [Synth 8-327] inferring latch for variable 'char_row_reg' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/counter_text.v:97]
+WARNING: [Synth 8-327] inferring latch for variable 'ascii_char_reg' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/counter_text.v:97]
+WARNING: [Synth 8-327] inferring latch for variable 'data_reg' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/ascii_rom_high_score.v:40]
+WARNING: [Synth 8-327] inferring latch for variable 'bit_addr_reg' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/stored_counter_text.v:86]
+WARNING: [Synth 8-327] inferring latch for variable 'char_row_reg' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/stored_counter_text.v:85]
+WARNING: [Synth 8-327] inferring latch for variable 'ascii_char_reg' [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/stored_counter_text.v:85]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                   ready |                               00 |                               00
+                new_code |                               01 |                               01
+               translate |                               10 |                               10
+                  output |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'ps2_keyboard_to_ascii'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  s_idle |                            00001 |                              000
+          s_tx_start_bit |                            00010 |                              001
+          s_tx_data_bits |                            00100 |                              010
+           s_tx_stop_bit |                            01000 |                              011
+               s_cleanup |                            10000 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'r_SM_Main_reg' using encoding 'one-hot' in module 'uart_tx'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1263.012 ; gain = 225.121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input   33 Bit       Adders := 9     
+	   2 Input   32 Bit       Adders := 43    
+	   3 Input   32 Bit       Adders := 12    
+	   2 Input   13 Bit       Adders := 1     
+	   2 Input   12 Bit       Adders := 3     
+	   2 Input   10 Bit       Adders := 2     
+	   2 Input    3 Bit       Adders := 6     
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
+	   9 Input      1 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 17    
+	               13 Bit    Registers := 17    
+	               12 Bit    Registers := 9     
+	               11 Bit    Registers := 7     
+	               10 Bit    Registers := 2     
+	                8 Bit    Registers := 8     
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
+	                3 Bit    Registers := 9     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 93    
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 17    
+	   3 Input   32 Bit        Muxes := 3     
+	   2 Input   12 Bit        Muxes := 9     
+	  33 Input   12 Bit        Muxes := 1     
+	   6 Input   12 Bit        Muxes := 5     
+	   3 Input   12 Bit        Muxes := 3     
+	 401 Input    8 Bit        Muxes := 1     
+	 209 Input    8 Bit        Muxes := 3     
+	 145 Input    8 Bit        Muxes := 1     
+	 464 Input    8 Bit        Muxes := 1     
+	   3 Input    8 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 19    
+	  22 Input    8 Bit        Muxes := 4     
+	  35 Input    8 Bit        Muxes := 1     
+	   7 Input    8 Bit        Muxes := 1     
+	  27 Input    8 Bit        Muxes := 2     
+	   4 Input    8 Bit        Muxes := 2     
+	   6 Input    8 Bit        Muxes := 3     
+	  34 Input    7 Bit        Muxes := 1     
+	   4 Input    7 Bit        Muxes := 1     
+	   5 Input    5 Bit        Muxes := 3     
+	   2 Input    5 Bit        Muxes := 12    
+	   2 Input    4 Bit        Muxes := 3     
+	   7 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 9     
+	   2 Input    2 Bit        Muxes := 7     
+	  33 Input    2 Bit        Muxes := 1     
+	   4 Input    2 Bit        Muxes := 1     
+	   3 Input    2 Bit        Muxes := 4     
+	 401 Input    1 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 40    
+	  32 Input    1 Bit        Muxes := 1     
+	  15 Input    1 Bit        Muxes := 1     
+	   8 Input    1 Bit        Muxes := 1     
+	 209 Input    1 Bit        Muxes := 2     
+	   5 Input    1 Bit        Muxes := 31    
+	 145 Input    1 Bit        Muxes := 1     
+	   3 Input    1 Bit        Muxes := 4     
+	   4 Input    1 Bit        Muxes := 7     
+	   6 Input    1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------

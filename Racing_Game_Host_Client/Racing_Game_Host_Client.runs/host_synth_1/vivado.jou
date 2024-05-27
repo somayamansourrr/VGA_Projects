@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon May 27 08:46:12 2024
+# Process ID: 11216
+# Current directory: C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.runs/host_synth_1
+# Command line: vivado.exe -log host.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source host.tcl
+# Log file: C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.runs/host_synth_1/host.vds
+# Journal file: C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.runs/host_synth_1\vivado.jou
+#-----------------------------------------------------------
+source host.tcl -notrace

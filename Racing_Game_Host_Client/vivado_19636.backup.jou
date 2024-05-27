@@ -1,0 +1,99 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon May 27 08:04:30 2024
+# Process ID: 19636
+# Current directory: C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22200 C:\Users\DELL\Downloads\Racing_Game_Host_Client\Racing_Game_Host_Client\Racing_Game_Host_Client.xpr
+# Log file: C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/vivado.log
+# Journal file: C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.xpr
+update_compile_order -fileset sources_1
+create_ip -name clk_wiz -vendor xilinx.com -library ip -version 6.0 -module_name clk_wiz_0 -dir c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip
+set_property -dict [list CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {25} CONFIG.USE_LOCKED {false} CONFIG.USE_RESET {false} CONFIG.MMCM_CLKFBOUT_MULT_F {9.125} CONFIG.MMCM_CLKOUT0_DIVIDE_F {36.500} CONFIG.CLKOUT1_JITTER {181.828} CONFIG.CLKOUT1_PHASE_ERROR {104.359}] [get_ips clk_wiz_0]
+generate_target {instantiation_template} [get_files c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci]
+generate_target all [get_files  c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci]
+catch { config_ip_cache -export [get_ips -all clk_wiz_0] }
+export_ip_user_files -of_objects [get_files c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci]
+launch_runs clk_wiz_0_synth_1 -jobs 12
+wait_on_run clk_wiz_0_synth_1
+export_simulation -of_objects [get_files c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -directory C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.ip_user_files -ipstatic_source_dir C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.cache/compile_simlib/modelsim} {questa=C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.cache/compile_simlib/questa} {riviera=C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.cache/compile_simlib/riviera} {activehdl=C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+create_ip -name blk_mem_gen -vendor xilinx.com -library ip -version 8.4 -module_name car -dir c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip
+set_property -dict [list CONFIG.Component_Name {car} CONFIG.Write_Width_A {12} CONFIG.Write_Depth_A {5000} CONFIG.Read_Width_A {12} CONFIG.Write_Width_B {12} CONFIG.Read_Width_B {12} CONFIG.Register_PortA_Output_of_Memory_Primitives {false} CONFIG.Load_Init_File {true} CONFIG.Coe_File {C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/car.coe}] [get_ips car]
+generate_target {instantiation_template} [get_files c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/car/car.xci]
+generate_target all [get_files  c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/car/car.xci]
+catch { config_ip_cache -export [get_ips -all car] }
+export_ip_user_files -of_objects [get_files c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/car/car.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/car/car.xci]
+launch_runs car_synth_1 -jobs 12
+wait_on_run car_synth_1
+export_simulation -of_objects [get_files c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/car/car.xci] -directory C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.ip_user_files -ipstatic_source_dir C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.cache/compile_simlib/modelsim} {questa=C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.cache/compile_simlib/questa} {riviera=C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.cache/compile_simlib/riviera} {activehdl=C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+set_property PR_FLOW 1 [current_project] 
+update_compile_order -fileset sources_1
+create_partition_def -name host_client -module client
+create_reconfig_module -name client -partition_def [get_partition_defs host_client ]  -define_from client
+delete_reconfig_modules -merge sources_1 [get_reconfig_modules client]
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/client.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/client.vhd
+delete_partition_defs -merge sources_1 [get_partition_defs host_client]
+add_files -norecurse C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/client.vhd
+update_compile_order -fileset sources_1
+create_partition_def -name host_client -module host
+create_reconfig_module -name host -partition_def [get_partition_defs host_client ]  -define_from host
+create_reconfig_module -name client -partition_def [get_partition_defs host_client ] 
+add_files -norecurse C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/new/client.vhd  -of_objects [get_reconfig_modules client]
+create_pr_configuration -name config_1 -partitions [list host_client:host ]
+create_pr_configuration -name config_2 -partitions [list host_client:client ]
+set_property PR_CONFIGURATION config_1 [get_runs impl_1]
+create_run child_0_impl_1 -parent_run impl_1 -flow {Vivado Implementation 2020} -pr_config config_2
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+set_property -dict [list CONFIG.Enable_A {Always_Enabled}] [get_ips car]
+generate_target all [get_files  c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/car/car.xci]
+catch { config_ip_cache -export [get_ips -all car] }
+export_ip_user_files -of_objects [get_files c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/car/car.xci] -no_script -sync -force -quiet
+reset_run car_synth_1
+launch_runs car_synth_1 -jobs 12
+wait_on_run car_synth_1
+export_simulation -of_objects [get_files c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/car/car.xci] -directory C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.ip_user_files -ipstatic_source_dir C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.cache/compile_simlib/modelsim} {questa=C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.cache/compile_simlib/questa} {riviera=C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.cache/compile_simlib/riviera} {activehdl=C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+open_run synth_1 -name synth_1 -pr_config [current_pr_configuration]
+refresh_design
+close_design
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+open_run synth_1 -name synth_1 -pr_config [current_pr_configuration]
+startgroup
+create_pblock pblock_host_client
+resize_pblock pblock_host_client -add SLICE_X30Y76:SLICE_X33Y98
+add_cells_to_pblock pblock_host_client [get_cells [list host_client]] -clear_locs
+endgroup
+report_drc -name drc_1 -ruledecks {default}
+add_files -fileset constrs_1 -norecurse C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/display_image.xdc
+refresh_design
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1 -pr_config [current_pr_configuration]
+startgroup
+create_pblock pblock_host_client
+resize_pblock pblock_host_client -add SLICE_X30Y76:SLICE_X33Y98
+add_cells_to_pblock pblock_host_client [get_cells [list host_client]] -clear_locs
+endgroup
+report_drc -name drc_1 -ruledecks {default}
+create_drc_ruledeck ruledeck_1
+add_drc_checks -ruledeck ruledeck_1 [get_drc_checks {HDPRABS-3 HDPRABS-2 HDPRABS-1 HDPRA-62 HDPRA-60 HDPRA-58 HDPRA-57 HDPRA-56 HDPRA-55 HDPRA-54 HDPRA-53 HDPRA-52 HDPRA-51 HDPRA-21 HDPR-98 HDPR-52 HDPR-43 HDPR-20 HDPR-88 HDPR-41 HDPR-40 HDPR-30 HDPR-107 HDPR-106 HDPR-105 HDPR-104 HDPR-103 HDPR-100 HDPR-99 HDPR-97 HDPR-96 HDPR-95 HDPR-94 HDPR-93 HDPR-92 HDPR-91 HDPR-90 HDPR-87 HDPR-86 HDPR-85 HDPR-84 HDPR-83 HDPR-74 HDPR-73 HDPR-72 HDPR-71 HDPR-70 HDPR-69 HDPR-68 HDPR-67 HDPR-66 HDPR-65 HDPR-64 HDPR-63 HDPR-62 HDPR-61 HDPR-60 HDPR-59 HDPR-58 HDPR-57 HDPR-54 HDPR-51 HDPR-50 HDPR-49 HDPR-48 HDPR-47 HDPR-46 HDPR-45 HDPR-44 HDPR-42 HDPR-39 HDPR-38 HDPR-37 HDPR-36 HDPR-35 HDPR-34 HDPR-33 HDPR-32 HDPR-29 HDPR-28 HDPR-27 HDPR-26 HDPR-25 HDPR-23 HDPR-22 HDPR-18 HDPR-17 HDPR-16 HDPR-15 HDPR-14 HDPR-13 HDPR-12 HDPR-11 HDPR-10 HDPR-9 HDPR-8 HDPR-7 HDPR-6 HDPR-5 HDPR-4 HDPR-3 HDPR-2 HDPR-1}]
+report_drc -name drc_2 -ruledecks {ruledeck_1}
+delete_drc_ruledeck ruledeck_1
+undo
+startgroup
+create_pblock pblock_host_client
+resize_pblock pblock_host_client -add SLICE_X30Y51:SLICE_X33Y98
+add_cells_to_pblock pblock_host_client [get_cells [list host_client]] -clear_locs

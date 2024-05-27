@@ -1,0 +1,389 @@
+/*
+
+Xilinx Vivado v2020.1 (64-bit) [Major: 2020, Minor: 1]
+SW Build: 2902540 on Wed May 27 19:54:49 MDT 2020
+IP Build: 2902112 on Wed May 27 22:43:36 MDT 2020
+
+Process ID (PID): 22252
+License: Customer
+
+Current time: 	Mon May 27 00:22:40 EET 2024
+Time zone: 	Eastern European Standard Time (Africa/Cairo)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Somaya
+User home directory: C:/Users/Somaya
+User working directory: C:/Users/Somaya/Desktop/Vivado Projects/UART
+User country: 	GB
+User language: 	en
+User locale: 	en_GB
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2020.1
+RDI_DATADIR: C:/Xilinx/Vivado/2020.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2020.1/bin
+
+Vivado preferences file location: C:/Users/Somaya/AppData/Roaming/Xilinx/Vivado/2020.1/vivado.xml
+Vivado preferences directory: C:/Users/Somaya/AppData/Roaming/Xilinx/Vivado/2020.1/
+Vivado layouts directory: C:/Users/Somaya/AppData/Roaming/Xilinx/Vivado/2020.1/data/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2020.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/Somaya/Desktop/Vivado Projects/UART/vivado.log
+Vivado journal file location: 	C:/Users/Somaya/Desktop/Vivado Projects/UART/vivado.jou
+Engine tmp dir: 	C:/Users/Somaya/Desktop/Vivado Projects/UART/.Xil/Vivado-22252-Somaya
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINXD_LICENSE_FILE: WWW.DOWNLOADLY.IR
+XILINX_DSP: C:/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2020.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2020.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2020.1
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 963 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// WARNING: HEventQueue.dispatchEvent() is taking  1199 ms.
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 94 MB (+96210kb) [00:00:20]
+// [Engine Memory]: 963 MB (+858704kb) [00:00:20]
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\Somaya\Desktop\Vivado Projects\UART\UART.xpr. Version: Vivado v2020.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/Users/Somaya/Desktop/Vivado Projects/UART/UART.xpr} 
+// HMemoryUtils.trashcanNow. Engine heap size: 963 MB. GUI used memory: 53 MB. Current time: 5/27/24, 12:22:42 AM EET
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/Somaya/Desktop/Vivado Projects/UART/UART.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 104 MB (+5404kb) [00:00:38]
+// WARNING: HEventQueue.dispatchEvent() is taking  7463 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:40 ; elapsed = 00:00:22 . Memory (MB): peak = 1020.781 ; gain = 0.000 
+// Project name: UART; location: C:/Users/Somaya/Desktop/Vivado Projects/UART; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bz (cs)
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// [GUI Memory]: 115 MB (+5792kb) [00:00:51]
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 124 MB (+3360kb) [00:01:10]
+// [GUI Memory]: 135 MB (+5656kb) [00:07:46]
+// Elapsed time: 423 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// f (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bz (cs):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cs)
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon May 27 01:30:11 2024] Launched synth_1... Run output will be captured here: C:/Users/Somaya/Desktop/Vivado Projects/UART/UART.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 5 seconds
+dismissDialog("Starting Design Runs"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking 712ms to process. Increasing delay to 3000 ms.
+// ag (cs): Synthesis Completed: addNotify
+// Elapsed time: 445 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ag)
+dismissDialog("Synthesis Completed"); // ag (cs)
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 15); // u (J, cs)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 15); // u (J, cs)
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Report Utilization]", 24, false); // u (J, cs)
+// bz (cs):  Open Synthesized Design : addNotify
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7a35tcpg236-1 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,030 MB. GUI used memory: 75 MB. Current time: 5/27/24, 12:38:03 AM EET
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,082 MB. GUI used memory: 75 MB. Current time: 5/27/24, 12:38:14 AM EET
+// [Engine Memory]: 1,082 MB (+74347kb) [00:15:56]
+// [Engine Memory]: 1,147 MB (+11267kb) [00:15:58]
+// Xgd.load filename: C:/Xilinx/Vivado/2020.1/data/parts/xilinx/artix7/devint/artix7/xc7a35t/xc7a35t.xgd; ZipEntry: xc7a35t_detail.xgd elapsed time: 1.1s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 1.3s
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgdAndInitRouteStorage elapsed time: 1.7s
+// [GUI Memory]: 143 MB (+962kb) [00:16:00]
+// [Engine Memory]: 1,217 MB (+12743kb) [00:16:01]
+// Device: addNotify
+// DeviceView Instantiated
+// WARNING: HEventQueue.dispatchEvent() is taking  4550 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Device 21-403] Loading part xc7a35tcpg236-1 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.939 . Memory (MB): peak = 1234.066 ; gain = 0.000 
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 2662 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2020.1 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1349.062 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// ExpRunCommands.openSynthResults elapsed time: 30.8s
+// Device view-level: 0.0
+// Tcl Message: open_run: Time (s): cpu = 00:00:47 ; elapsed = 00:00:30 . Memory (MB): peak = 1464.336 ; gain = 443.555 
+// Run Command: PAResourceCommand.PACommandNames_RESOURCE_UTILIZATION
+// a (cs): Report Utilization: addNotify
+// Elapsed time: 34 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+// 'cy' command handler elapsed time: 3 seconds
+dismissDialog("Report Utilization"); // a (cs)
+// Tcl Message: report_utilization -name utilization_1 
+// bz (cs):  Report Utilization : addNotify
+// TclEventType: UTILIZATION_RESULT_GENERATED
+// [GUI Memory]: 151 MB (+660kb) [00:16:09]
+// [GUI Memory]: 159 MB (+114kb) [00:16:10]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,267 MB. GUI used memory: 109 MB. Current time: 5/27/24, 12:38:32 AM EET
+// WARNING: HEventQueue.dispatchEvent() is taking  2432 ms.
+// Tcl Message: report_utilization: Time (s): cpu = 00:00:20 ; elapsed = 00:00:07 . Memory (MB): peak = 1505.301 ; gain = 25.418 
+// [Engine Memory]: 1,279 MB (+1458kb) [00:16:14]
+dismissDialog("Report Utilization"); // bz (cs)
+selectTree(PAResourceQtoS.ReportUtilTab_REPORT_UTILIZATION_NAVIGATION_TREE, "[Report Contents, Summary]", 1, false); // l (J, cs)
+// RouteApi::initDelayMediator elapsed time: 20.5s
+// [Engine Memory]: 1,645 MB (+316752kb) [00:16:24]
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// Elapsed time: 38 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Report Power]", 26, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_POWER_ESTIMATION
+// [GUI Memory]: 168 MB (+1394kb) [00:16:57]
+// a (cs): Report Power: addNotify
+selectButton(PAResourceTtoZ.XPowerSettingsDialog_SAVE_THESE_SETTINGS_AND_RUN, "OK"); // a (a)
+// Run Command: PAResourceCommand.PACommandNames_RUN_POWER_ESTIMATION
+// HMemoryUtils.trashcanNow. Engine heap size: 1,671 MB. GUI used memory: 110 MB. Current time: 5/27/24, 12:39:18 AM EET
+dismissDialog("Report Power"); // a (cs)
+// bz (cs):  Power Estimation : addNotify
+// Tcl Message: report_power -name {power_1} 
+// Tcl Message: Command: report_power -name power_1 
+// Tcl Message: INFO: [Timing 38-35] Done setting XDC timing constraints. 
+// Tcl Message: Running Vector-less Activity Propagation... 
+// TclEventType: TIMING_RESULTS_STALE
+// [Engine Memory]: 1,794 MB (+69293kb) [00:17:11]
+// Tcl Message:  Finished Running Vector-less Activity Propagation 
+// TclEventType: POWER_UPDATED
+// [GUI Memory]: 179 MB (+2453kb) [00:17:17]
+// [GUI Memory]: 188 MB (+359kb) [00:17:18]
+// WARNING: HEventQueue.dispatchEvent() is taking  5604 ms.
+// [GUI Memory]: 203 MB (+5608kb) [00:17:19]
+// Tcl Message: 1 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered. report_power completed successfully 
+// Tcl Message: report_power: Time (s): cpu = 00:00:33 ; elapsed = 00:00:20 . Memory (MB): peak = 2146.992 ; gain = 235.238 
+// Elapsed time: 20 seconds
+dismissDialog("Power Estimation"); // bz (cs)
+// Elapsed time: 41 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 32, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+// f (cs): Launch Runs: addNotify
+dismissDialog("No Implementation Results Available"); // A (cs)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cD' command handler elapsed time: 3 seconds
+dismissDialog("Launch Runs"); // f (cs)
+// bz (cs):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon May 27 01:40:29 2024] Launched impl_1... Run output will be captured here: C:/Users/Somaya/Desktop/Vivado Projects/UART/UART.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 2164.938 ; gain = 15.129 
+dismissDialog("Generate Bitstream"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// WARNING: HEventQueue.dispatchEvent() is taking  1343 ms.
+// TclEventType: RUN_STEP_COMPLETED
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 2358 ms. Increasing delay to 3000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1210 ms.
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking 626ms to process. Increasing delay to 4000 ms.
+// ag (cs): Bitstream Generation Failed: addNotify
+// Elapsed time: 1297 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ag)
+// Run Command: PAResourceCommand.PACommandNames_LOG_WINDOW
+dismissDialog("Bitstream Generation Failed"); // ag (cs)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aL (aI, cs)
+// Device view-level: 0.2
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aL (aI, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // B (F, cs)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+selectButton("CANCEL", "Cancel"); // JButton (j, c)
+// 'h' command handler elapsed time: 3 seconds
+dismissDialog("Add Sources"); // c (cs)
+// Elapsed time: 21 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_OR_CREATE_CONSTRAINT_FILES, "Add or create constraints"); // a (o, c)
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceAtoD.ConstraintsChooserPanel_CREATE_FILE, "Create File"); // a (E, c)
+// Tcl Command: 'file mkdir C:/Users/Somaya/Desktop/Vivado Projects/UART/UART.srcs/constrs_1'
+// C (cs): Create Constraints File: addNotify
+// Tcl Message: file mkdir C:/Users/Somaya/Desktop/Vivado Projects/UART/UART.srcs/constrs_1 
+// Tcl Message: can't create directory "C:/Users/Somaya/Desktop/Vivado": file already exists 
+// Elapsed time: 14 seconds
+setText(PAResourceAtoD.CreateConstraintsFilePanel_FILE_NAME, "Basys-3-Master"); // ac (D, C)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (C)
+dismissDialog("Create Constraints File"); // C (cs)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 20 seconds
+// Tcl Command: 'file mkdir C:/Users/Somaya/Desktop/Vivado Projects/UART/UART.srcs/constrs_1'
+dismissDialog("Add Sources"); // c (cs)
+// bz (cs):  Add Constraint  : addNotify
+// Tcl Message: file mkdir C:/Users/Somaya/Desktop/Vivado Projects/UART/UART.srcs/constrs_1 
+// Tcl Message: can't create directory "C:/Users/Somaya/Desktop/Vivado": file already exists 
+// Tcl Command: 'file mkdir C:/Users/Somaya/Desktop/Vivado Projects/UART/UART.srcs/constrs_1/new'
+// Tcl Message: file mkdir C:/Users/Somaya/Desktop/Vivado Projects/UART/UART.srcs/constrs_1/new 
+// Tcl Message: can't create directory "C:/Users/Somaya/Desktop/Vivado": file already exists 
+// Tcl Command: 'file mkdir C:/Users/Somaya/Desktop/Vivado Projects/UART/UART.srcs/constrs_1/new'
+// Tcl Message: file mkdir C:/Users/Somaya/Desktop/Vivado Projects/UART/UART.srcs/constrs_1/new 
+// Tcl Message: can't create directory "C:/Users/Somaya/Desktop/Vivado": file already exists 
+// Tcl Command: 'file mkdir C:/Users/Somaya/Desktop/Vivado Projects/UART/UART.srcs/constrs_1/new'
+// Tcl Message: file mkdir C:/Users/Somaya/Desktop/Vivado Projects/UART/UART.srcs/constrs_1/new 
+// Tcl Message: can't create directory "C:/Users/Somaya/Desktop/Vivado": file already exists 
+// Tcl Command: 'file mkdir C:/Users/Somaya/Desktop/Vivado Projects/UART/UART.srcs/constrs_1/new'
+// Tcl Message: file mkdir C:/Users/Somaya/Desktop/Vivado Projects/UART/UART.srcs/constrs_1/new 
+// Tcl Message: can't create directory "C:/Users/Somaya/Desktop/Vivado": file already exists 
+// Tcl Command: 'file mkdir C:/Users/Somaya/Desktop/Vivado Projects/UART/UART.srcs/constrs_1'
+// Tcl Message: file mkdir C:/Users/Somaya/Desktop/Vivado Projects/UART/UART.srcs/constrs_1 
+// Tcl Message: can't create directory "C:/Users/Somaya/Desktop/Vivado": file already exists 
+// Tcl Message: file mkdir {C:/Users/Somaya/Desktop/Vivado Projects/UART/UART.srcs/constrs_1/new} 
+// Tcl Message: close [ open {C:/Users/Somaya/Desktop/Vivado Projects/UART/UART.srcs/constrs_1/new/Basys-3-Master.xdc} w ] 
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset constrs_1 {{C:/Users/Somaya/Desktop/Vivado Projects/UART/UART.srcs/constrs_1/new/Basys-3-Master.xdc}} 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,796 MB. GUI used memory: 155 MB. Current time: 5/27/24, 1:03:10 AM EET
+// Device view-level: 0.1
+dismissDialog("Add Constraint"); // bz (cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 3); // B (F, cs)
+// PAPropertyPanels.initPanels (Basys-3-Master.xdc) elapsed time: 0.3s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys-3-Master.xdc]", 4, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys-3-Master.xdc]", 4, false, false, false, false, false, true); // B (F, cs) - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1239 ms.
+selectCodeEditor("Basys-3-Master.xdc", 216, 94); // bP (w, cs)
+typeControlKey((HResource) null, "Basys-3-Master.xdc", 'v'); // bP (w, cs)
+selectCodeEditor("Basys-3-Master.xdc", 196, 94); // bP (w, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, uart_top(Behavioral) (uart_top.vhd)]", 1, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, uart_top(Behavioral) (uart_top.vhd)]", 1, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys-3-Master.xdc", 2); // m (l, cs)
+selectCodeEditor("Basys-3-Master.xdc", 520, 304); // bP (w, cs)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // E (g, cs)
+selectCodeEditor("Basys-3-Master.xdc", 564, 194); // bP (w, cs)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // E (g, cs)
+selectCodeEditor("Basys-3-Master.xdc", 299, 100); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "uart_top.vhd", 3); // m (l, cs)
+// Elapsed time: 31 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys-3-Master.xdc", 2); // m (l, cs)
+selectCodeEditor("Basys-3-Master.xdc", 574, 303); // bP (w, cs)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // E (g, cs)
+selectCodeEditor("Basys-3-Master.xdc", 579, 366); // bP (w, cs)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // E (g, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "uart_top.vhd", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys-3-Master.xdc", 2); // m (l, cs)
+selectCodeEditor("Basys-3-Master.xdc", 429, 167); // bP (w, cs)
+selectCodeEditor("Basys-3-Master.xdc", 429, 167, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("Basys-3-Master.xdc", 476, 190); // bP (w, cs)
+selectCodeEditor("Basys-3-Master.xdc", 476, 190, false, false, false, false, true); // bP (w, cs) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "uart_top.vhd", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys-3-Master.xdc", 2); // m (l, cs)
+selectCodeEditor("Basys-3-Master.xdc", 557, 222); // bP (w, cs)
+selectCodeEditor("Basys-3-Master.xdc", 511, 248); // bP (w, cs)
+selectCodeEditor("Basys-3-Master.xdc", 561, 209); // bP (w, cs)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // E (g, cs)
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 213 MB (+661kb) [00:43:12]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "uart_top.vhd", 3); // m (l, cs)
+selectCodeEditor("uart_top.vhd", 290, 209); // bP (w, cs)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 32, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cD' command handler elapsed time: 3 seconds
+dismissDialog("Launch Runs"); // f (cs)
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: [Mon May 27 02:05:41 2024] Launched synth_1... Run output will be captured here: C:/Users/Somaya/Desktop/Vivado Projects/UART/UART.runs/synth_1/runme.log [Mon May 27 02:05:42 2024] Launched impl_1... Run output will be captured here: C:/Users/Somaya/Desktop/Vivado Projects/UART/UART.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+dismissDialog("Generate Bitstream"); // bz (cs)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// WARNING: HEventQueue.dispatchEvent() is taking  1174 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,796 MB. GUI used memory: 138 MB. Current time: 5/27/24, 1:33:14 AM EET
+// Elapsed time: 2307 seconds
+closeMainWindow("UART - [C:/Users/Somaya/Desktop/Vivado Projects/UART/UART.xpr] - Vivado 2020.1"); // cs
+// Run Command: PAResourceCommand.PACommandNames_EXIT
+// A (cs): Exit Vivado: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (A)
+// 'aK' command handler elapsed time: 3 seconds
+dismissDialog("Exit Vivado"); // A (cs)

@@ -1,0 +1,112 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon May 27 09:11:16 2024
+# Process ID: 13224
+# Current directory: C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21592 C:\Users\DELL\Downloads\Racing_Game_Host_Client\Racing_Game_Host_Client\Racing_Game_Host_Client.xpr
+# Log file: C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/vivado.log
+# Journal file: C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:33 ; elapsed = 00:00:16 . Memory (MB): peak = 1037.035 ; gain = 0.000
+update_compile_order -fileset sources_1
+open_run synth_1 -name synth_1 -pr_config [current_pr_configuration]
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcpg236-1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp' for cell 'clk_wizard'
+INFO: [Project 1-454] Reading design checkpoint 'C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.runs/host_synth_1/host.dcp' for cell 'host_client'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/car/car.dcp' for cell 'game/pixel_array'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.399 . Memory (MB): peak = 1312.023 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2554 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Opt 31-35] Removing redundant IBUF, clk_wizard/inst/clkin1_ibufg, from the path connected to top-level port: clk 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-35] Removing redundant IBUF, game/clk_wizard/inst/clkin1_ibufg, from the path connected to top-level port: clk 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'clk_wizard/clk_in1' is not directly connected to top level port. Synthesis is ignored for IBUF_LOW_PWR but preserved for implementation.
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'game/clk_wizard/clk_in1' is not directly connected to top level port. Synthesis is ignored for IBUF_LOW_PWR but preserved for implementation.
+Parsing XDC File [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'clk_wizard/inst'
+Finished Parsing XDC File [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'clk_wizard/inst'
+Parsing XDC File [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'game/clk_wizard/inst'
+Finished Parsing XDC File [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'game/clk_wizard/inst'
+Parsing XDC File [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'clk_wizard/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+get_clocks: Time (s): cpu = 00:00:18 ; elapsed = 00:00:17 . Memory (MB): peak = 1976.672 ; gain = 550.590
+Finished Parsing XDC File [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'clk_wizard/inst'
+Parsing XDC File [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'game/clk_wizard/inst'
+INFO: [Timing 38-2] Deriving generated clocks [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+Finished Parsing XDC File [c:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'game/clk_wizard/inst'
+Parsing XDC File [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/display_image.xdc]
+Finished Parsing XDC File [C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/display_image.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1976.672 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:57 ; elapsed = 00:00:42 . Memory (MB): peak = 2023.945 ; gain = 986.910
+startgroup
+create_pblock pblock_host_client
+resize_pblock pblock_host_client -add SLICE_X30Y51:SLICE_X33Y98
+add_cells_to_pblock pblock_host_client [get_cells [list host_client]] -clear_locs
+endgroup
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+create_drc_ruledeck ruledeck_1
+add_drc_checks -ruledeck ruledeck_1 [get_drc_checks {HDPRABS-3 HDPRABS-2 HDPRABS-1 HDPRA-62 HDPRA-60 HDPRA-58 HDPRA-57 HDPRA-56 HDPRA-55 HDPRA-54 HDPRA-53 HDPRA-52 HDPRA-51 HDPRA-21 HDPR-98 HDPR-52 HDPR-43 HDPR-20 HDPR-88 HDPR-41 HDPR-40 HDPR-30 HDPR-107 HDPR-106 HDPR-105 HDPR-104 HDPR-103 HDPR-100 HDPR-99 HDPR-97 HDPR-96 HDPR-95 HDPR-94 HDPR-93 HDPR-92 HDPR-91 HDPR-90 HDPR-87 HDPR-86 HDPR-85 HDPR-84 HDPR-83 HDPR-74 HDPR-73 HDPR-72 HDPR-71 HDPR-70 HDPR-69 HDPR-68 HDPR-67 HDPR-66 HDPR-65 HDPR-64 HDPR-63 HDPR-62 HDPR-61 HDPR-60 HDPR-59 HDPR-58 HDPR-57 HDPR-54 HDPR-51 HDPR-50 HDPR-49 HDPR-48 HDPR-47 HDPR-46 HDPR-45 HDPR-44 HDPR-42 HDPR-39 HDPR-38 HDPR-37 HDPR-36 HDPR-35 HDPR-34 HDPR-33 HDPR-32 HDPR-29 HDPR-28 HDPR-27 HDPR-26 HDPR-25 HDPR-23 HDPR-22 HDPR-18 HDPR-17 HDPR-16 HDPR-15 HDPR-14 HDPR-13 HDPR-12 HDPR-11 HDPR-10 HDPR-9 HDPR-8 HDPR-7 HDPR-6 HDPR-5 HDPR-4 HDPR-3 HDPR-2 HDPR-1}]
+report_drc -name drc_1 -ruledecks {ruledeck_1}
+Command: report_drc -name drc_1 -ruledecks ruledeck_1
+INFO: [DRC 23-27] Running DRC with 2 threads
+report_drc completed successfully
+delete_drc_ruledeck ruledeck_1
+undo
+INFO: [Common 17-17] undo 'endgroup'
+INFO: [Common 17-17] undo 'add_cells_to_pblock pblock_host_client [get_cells [list host_client]] -clear_locs'
+INFO: [Common 17-17] undo 'resize_pblock pblock_host_client -add SLICE_X30Y51:SLICE_X33Y98'
+INFO: [Common 17-17] undo 'create_pblock pblock_host_client'
+INFO: [Common 17-17] undo 'startgroup'
+startgroup
+create_pblock pblock_host_client
+resize_pblock pblock_host_client -add SLICE_X30Y50:SLICE_X33Y99
+add_cells_to_pblock pblock_host_client [get_cells [list host_client]] -clear_locs

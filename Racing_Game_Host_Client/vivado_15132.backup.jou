@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon May 27 09:15:40 2024
+# Process ID: 15132
+# Current directory: C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3472 C:\Users\DELL\Downloads\Racing_Game_Host_Client\Racing_Game_Host_Client\Racing_Game_Host_Client.xpr
+# Log file: C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/vivado.log
+# Journal file: C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.xpr
+update_compile_order -fileset sources_1
+open_run synth_1 -name synth_1 -pr_config [current_pr_configuration]
+startgroup
+create_pblock pblock_host_client
+resize_pblock pblock_host_client -add SLICE_X30Y50:SLICE_X33Y99
+add_cells_to_pblock pblock_host_client [get_cells [list host_client]] -clear_locs
+endgroup
+create_drc_ruledeck ruledeck_1
+add_drc_checks -ruledeck ruledeck_1 [get_drc_checks {HDPRABS-3 HDPRABS-2 HDPRABS-1 HDPRA-62 HDPRA-60 HDPRA-58 HDPRA-57 HDPRA-56 HDPRA-55 HDPRA-54 HDPRA-53 HDPRA-52 HDPRA-51 HDPRA-21 HDPR-98 HDPR-52 HDPR-43 HDPR-20 HDPR-88 HDPR-41 HDPR-40 HDPR-30 HDPR-107 HDPR-106 HDPR-105 HDPR-104 HDPR-103 HDPR-100 HDPR-99 HDPR-97 HDPR-96 HDPR-95 HDPR-94 HDPR-93 HDPR-92 HDPR-91 HDPR-90 HDPR-87 HDPR-86 HDPR-85 HDPR-84 HDPR-83 HDPR-74 HDPR-73 HDPR-72 HDPR-71 HDPR-70 HDPR-69 HDPR-68 HDPR-67 HDPR-66 HDPR-65 HDPR-64 HDPR-63 HDPR-62 HDPR-61 HDPR-60 HDPR-59 HDPR-58 HDPR-57 HDPR-54 HDPR-51 HDPR-50 HDPR-49 HDPR-48 HDPR-47 HDPR-46 HDPR-45 HDPR-44 HDPR-42 HDPR-39 HDPR-38 HDPR-37 HDPR-36 HDPR-35 HDPR-34 HDPR-33 HDPR-32 HDPR-29 HDPR-28 HDPR-27 HDPR-26 HDPR-25 HDPR-23 HDPR-22 HDPR-18 HDPR-17 HDPR-16 HDPR-15 HDPR-14 HDPR-13 HDPR-12 HDPR-11 HDPR-10 HDPR-9 HDPR-8 HDPR-7 HDPR-6 HDPR-5 HDPR-4 HDPR-3 HDPR-2 HDPR-1}]
+report_drc -name drc_1 -ruledecks {ruledeck_1}
+delete_drc_ruledeck ruledeck_1
+file mkdir C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/constrs_1/new
+close [ open C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/constrs_1/new/pblocks.xdc w ]
+add_files -fileset constrs_1 C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/constrs_1/new/pblocks.xdc
+set_property target_constrs_file C:/Users/DELL/Downloads/Racing_Game_Host_Client/Racing_Game_Host_Client/Racing_Game_Host_Client.srcs/constrs_1/new/pblocks.xdc [current_fileset -constrset]
+save_constraints -force
+reset_run synth_1
+launch_runs impl_1 child_0_impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+wait_on_run child_0_impl_1
